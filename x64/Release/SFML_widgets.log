@@ -1,7 +1,7 @@
-﻿  image_widget_draw.cpp
+﻿  SFML_widgets.cpp
   Создание кода
-  1 of 164 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  15 of 174 functions ( 8.6%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   SFML_widgets.vcxproj -> C:\Users\MArzumanov\source\repos\SFML_widgets\x64\Release\SFML_widgets.exe
