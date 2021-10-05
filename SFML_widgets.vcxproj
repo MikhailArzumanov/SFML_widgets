@@ -148,6 +148,7 @@
     <ClCompile Include="handle_events.cpp" />
     <ClCompile Include="image_widget_constructors.cpp" />
     <ClCompile Include="image_widget_draw.cpp" />
+    <ClCompile Include="image_widget_on_click.cpp" />
     <ClCompile Include="init.cpp" />
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_widgets.cpp" />
@@ -158,6 +159,7 @@
     <ClCompile Include="widget_add_child.cpp" />
     <ClCompile Include="widget_constructors.cpp" />
     <ClCompile Include="widget_draw.cpp" />
+    <ClCompile Include="widget_process_click.cpp" />
     <ClCompile Include="widget_set_visibility.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>

@@ -22,9 +22,6 @@
     <Filter Include="Исходные файлы\widget">
       <UniqueIdentifier>{136ae72c-fd75-4e36-b047-63bcfa2f0a72}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\image_widget">
-      <UniqueIdentifier>{6a3823c5-f42c-4c05-9e3e-c3e38846aeb3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\main_program">
       <UniqueIdentifier>{b6397dcc-c74c-4944-979d-e92247c8c72f}</UniqueIdentifier>
     </Filter>
@@ -40,6 +37,33 @@
     <Filter Include="Исходные файлы\main_program\init">
       <UniqueIdentifier>{79bb7175-3acb-4355-9ab5-22b3babe27d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors">
+      <UniqueIdentifier>{46e19ff7-0c6a-4a61-848d-7ab56dd74383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\self">
+      <UniqueIdentifier>{9b5cfe54-8f05-44f3-b31c-db7fc7827776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract">
+      <UniqueIdentifier>{2aa9b532-e57e-4d6c-a39a-cd9259c0d3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\image_widget">
+      <UniqueIdentifier>{6a3823c5-f42c-4c05-9e3e-c3e38846aeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget">
+      <UniqueIdentifier>{3015f04e-6989-4c26-a37a-0143414c83ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget\widget_inheritors">
+      <UniqueIdentifier>{834bfbb2-0e8d-4941-ac08-ec4d30d4a837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget\widget_inheritors\abstract">
+      <UniqueIdentifier>{97fc575a-7ac4-4cee-bbf7-ab8e82657e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\environment">
+      <UniqueIdentifier>{a02e3ab9-faf0-412b-8e55-4cfaf84bd860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\environment\structs">
+      <UniqueIdentifier>{97da18b6-70dd-482e-b42a-aaf03f525ceb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -51,23 +75,11 @@
     <ClCompile Include="window.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
-    <ClCompile Include="widget_draw.cpp">
-      <Filter>Исходные файлы\widget</Filter>
-    </ClCompile>
-    <ClCompile Include="widget_add_child.cpp">
-      <Filter>Исходные файлы\widget</Filter>
-    </ClCompile>
-    <ClCompile Include="widget_constructors.cpp">
-      <Filter>Исходные файлы\widget</Filter>
-    </ClCompile>
-    <ClCompile Include="widget_set_visibility.cpp">
-      <Filter>Исходные файлы\widget</Filter>
-    </ClCompile>
     <ClCompile Include="image_widget_draw.cpp">
-      <Filter>Исходные файлы\image_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_constructors.cpp">
-      <Filter>Исходные файлы\image_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="draw.cpp">
       <Filter>Исходные файлы\main_program\draw</Filter>
@@ -96,25 +108,43 @@
     <ClCompile Include="widget.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
+    <ClCompile Include="widget_add_child.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_draw.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_set_visibility.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_process_click.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="image_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="point.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="environment.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="widget.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="image_widget.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="main_programm.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="widget.hpp">
+      <Filter>Файлы заголовков\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="image_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
     <ClInclude Include="window.hpp">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Файлы заголовков\environment\structs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

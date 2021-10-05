@@ -1,0 +1,36 @@
+﻿  clear_memory.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\environment.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  cycle.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\window.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  draw.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\window.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  handle_events.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\window.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  image_widget_constructors.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  image_widget_draw.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  init.cpp
+  init_sprites.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\environment.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  init_widgets.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  point_operators.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SFML_widgets.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\SFML_widgets.cpp(1,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  sprites.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\environment.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  widget.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\environment.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  widget_add_child.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  widget_constructors.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  widget_draw.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  widget_set_visibility.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\point.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  window.cpp
+C:\Users\MArzumanov\source\repos\SFML_widgets\environment.hpp(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
