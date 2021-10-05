@@ -142,10 +142,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clear_memory.cpp" />
+    <ClCompile Include="cycle.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="handle_events.cpp" />
     <ClCompile Include="image_widget_constructors.cpp" />
     <ClCompile Include="image_widget_draw.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="init_sprites.cpp" />
+    <ClCompile Include="init_widgets.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
+    <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="widget.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
     <ClCompile Include="widget_constructors.cpp" />
     <ClCompile Include="widget_draw.cpp" />
@@ -155,8 +164,10 @@
   <ItemGroup>
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
+    <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="widget.hpp" />
+    <ClInclude Include="window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

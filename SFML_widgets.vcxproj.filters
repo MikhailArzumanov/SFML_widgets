@@ -25,6 +25,21 @@
     <Filter Include="Исходные файлы\image_widget">
       <UniqueIdentifier>{6a3823c5-f42c-4c05-9e3e-c3e38846aeb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\main_program">
+      <UniqueIdentifier>{b6397dcc-c74c-4944-979d-e92247c8c72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\main_program\draw">
+      <UniqueIdentifier>{0b6b1e3d-677c-42c1-8701-0d4433f68a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\main_program\cycle">
+      <UniqueIdentifier>{096e99d7-3707-401f-8258-c314cff3b454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\main_program\handle_events">
+      <UniqueIdentifier>{3add88e6-623a-4a05-b8e2-e41901711fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\main_program\init">
+      <UniqueIdentifier>{79bb7175-3acb-4355-9ab5-22b3babe27d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -54,6 +69,33 @@
     <ClCompile Include="image_widget_constructors.cpp">
       <Filter>Исходные файлы\image_widget</Filter>
     </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Исходные файлы\main_program\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cycle.cpp">
+      <Filter>Исходные файлы\main_program\cycle</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_events.cpp">
+      <Filter>Исходные файлы\main_program\handle_events</Filter>
+    </ClCompile>
+    <ClCompile Include="init_sprites.cpp">
+      <Filter>Исходные файлы\main_program\init</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Исходные файлы\main_program\init</Filter>
+    </ClCompile>
+    <ClCompile Include="init_widgets.cpp">
+      <Filter>Исходные файлы\main_program\init</Filter>
+    </ClCompile>
+    <ClCompile Include="clear_memory.cpp">
+      <Filter>Исходные файлы\main_program</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point.hpp">
@@ -66,6 +108,12 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="image_widget.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="main_programm.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="window.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

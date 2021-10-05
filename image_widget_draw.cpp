@@ -1,4 +1,5 @@
 #include "image_widget.hpp"
+#include "window.hpp"
 
 void ImageWidget::draw(point shift) {
     (shift + p) > sprite;

@@ -1,7 +1,14 @@
 ﻿  SFML_widgets.cpp
-  Создание кода
-  15 of 174 functions ( 8.6%) were compiled, the rest were copied from previous compilation.
-    6 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Создание кода завершено
+  clear_memory.cpp
+  draw.cpp
+  init_sprites.cpp
+  init_widgets.cpp
+  sprites.cpp
+  widget.cpp
+  window.cpp
+  Generating code
+  35 of 178 functions (19.7%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
   SFML_widgets.vcxproj -> C:\Users\MArzumanov\source\repos\SFML_widgets\x64\Release\SFML_widgets.exe

@@ -1,5 +1,4 @@
 #pragma once
-#include "environment.hpp"
 #include "point.hpp"
 #include <vector>
 
