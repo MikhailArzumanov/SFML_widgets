@@ -64,6 +64,9 @@
     <Filter Include="Файлы заголовков\environment\structs">
       <UniqueIdentifier>{97da18b6-70dd-482e-b42a-aaf03f525ceb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\widget_close">
+      <UniqueIdentifier>{2c7f6782-4cdf-4f79-badf-5979562e7d8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -126,6 +129,12 @@
     <ClCompile Include="image_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
     </ClCompile>
+    <ClCompile Include="widget_close_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\widget_close</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_close_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\widget_close</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -145,6 +154,9 @@
     </ClInclude>
     <ClInclude Include="point.hpp">
       <Filter>Файлы заголовков\environment\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="widget_close.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

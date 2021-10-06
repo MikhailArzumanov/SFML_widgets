@@ -157,6 +157,8 @@
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="widget.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
+    <ClCompile Include="widget_close_click.cpp" />
+    <ClCompile Include="widget_close_constructors.cpp" />
     <ClCompile Include="widget_constructors.cpp" />
     <ClCompile Include="widget_draw.cpp" />
     <ClCompile Include="widget_process_click.cpp" />
@@ -169,6 +171,7 @@
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="widget.hpp" />
+    <ClInclude Include="widget_close.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

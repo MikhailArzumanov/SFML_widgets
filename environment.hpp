@@ -2,11 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "widget.hpp"
 
-#define in :
-#define of :
-#define let auto
-
-const int sprites_amount = 1;
+const int sprites_amount = 2;
 
 extern std::vector<Widget*> widgets;
 extern std::string* paths;

@@ -1,4 +1,5 @@
 #include "image_widget.hpp"
+ImageWidget::ImageWidget(){}
 
 ImageWidget::ImageWidget(point p_) {
     p = p_;
