@@ -142,6 +142,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animated.cpp" />
+    <ClCompile Include="animated_close_constructors.cpp" />
+    <ClCompile Include="animated_close_onclick.cpp" />
+    <ClCompile Include="animated_widget_animate.cpp" />
+    <ClCompile Include="animated_widget_constructors.cpp" />
+    <ClCompile Include="animated_widget_draw.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="cycle.cpp" />
     <ClCompile Include="draw.cpp" />
@@ -155,7 +161,7 @@
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
     <ClCompile Include="sprites.cpp" />
-    <ClCompile Include="widget.cpp" />
+    <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
     <ClCompile Include="widget_close_click.cpp" />
     <ClCompile Include="widget_close_constructors.cpp" />
@@ -166,8 +172,11 @@
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animated_close.hpp" />
+    <ClInclude Include="animated_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
+    <ClInclude Include="i_animatable.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="widget.hpp" />

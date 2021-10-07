@@ -2,7 +2,7 @@
 #include "widget.hpp"
 
 class ImageWidget : public Widget {
-protected:
+public:
     sf::Sprite* sprite;
 public:
     virtual void draw(point shift);
@@ -10,5 +10,5 @@ public:
     virtual void on_click();
     ImageWidget();
     ImageWidget(point p_);
-    ImageWidget(sf::Sprite* sprite_, point p_);
+    ImageWidget(sf::Sprite& sprite_, point p_);
 };

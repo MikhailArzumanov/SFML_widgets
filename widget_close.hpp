@@ -3,6 +3,6 @@
 
 class WidgetClose : public ImageWidget {
 public:
-	WidgetClose(sf::Sprite* sprite_, point p_);
+	WidgetClose(sf::Sprite& sprite_, point p_);
 	void on_click();
 };
