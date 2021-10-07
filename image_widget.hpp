@@ -5,8 +5,8 @@ class ImageWidget : public Widget {
 protected:
     sf::Sprite* sprite;
 public:
-    void draw(point shift);
-    void draw();
+    virtual void draw(point shift);
+    virtual void draw();
     virtual void on_click();
     ImageWidget();
     ImageWidget(point p_);
