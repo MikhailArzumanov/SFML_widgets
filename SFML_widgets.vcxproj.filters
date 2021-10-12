@@ -162,6 +162,9 @@
     <ClCompile Include="animated_close_onclick.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\animated_close</Filter>
     </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">

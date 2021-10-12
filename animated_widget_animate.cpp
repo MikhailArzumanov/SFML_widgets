@@ -1,5 +1,9 @@
 #include "animated_widget.hpp"
 
 void AnimatedWidget::animate() {
-	current_frame = (current_frame+1)%frames_amount;
+	if (framecounter >= framerate) {
+		current_frame = (current_frame + 1) % frames_amount;
+		framecounter = 0;
+	}
+	else framecounter++;
 }

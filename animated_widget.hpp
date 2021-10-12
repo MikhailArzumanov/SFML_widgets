@@ -9,9 +9,12 @@ protected:
 
     int frames_amount;
     int states_amount;
+
+    int framecounter;
+    int framerate;
 public:
     void draw(point shift);
     void animate();
     AnimatedWidget();
-    AnimatedWidget(sf::Sprite* sprite_, point p_, point frame_size);
+    AnimatedWidget(sf::Sprite* sprite_, point p_, point frame_size, int framerate_);
 };

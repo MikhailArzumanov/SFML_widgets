@@ -11,6 +11,7 @@ enum SpriteNames {
 	close_animated,
 };
 
+extern sf::Clock the_clock;
 extern std::vector<Widget*> widgets;
 extern std::vector<IAnimatable*> animated;
 extern std::string* paths;

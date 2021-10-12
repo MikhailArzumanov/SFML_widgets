@@ -16,6 +16,12 @@ void tick() {
     draw_window();
 }
 void to_cycle() {
-    while (window.isOpen())
-        tick();
+    the_clock.restart();
+    while (window.isOpen()) {
+        float time = the_clock.getElapsedTime().asSeconds();
+        if (time >= 1 / 60.f) {
+            the_clock.restart();
+            tick();
+        }
+    }
 }
