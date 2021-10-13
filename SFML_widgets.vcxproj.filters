@@ -150,6 +150,9 @@
     <ClCompile Include="image_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
     </ClCompile>
+    <ClCompile Include="tick.cpp">
+      <Filter>Исходные файлы\main_program\cycle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
