@@ -13,12 +13,7 @@ void handle_events() {
             window.close();
             break;
         case sf::Event::MouseButtonPressed:
-            Widget* result = nullptr;
-            point mouse = { event.mouseButton.x, event.mouseButton.y };
-            for (let widget of widgets)
-                widget->process_click(mouse, result);
-            if (result != nullptr)
-                result->on_click();
+            widgets_process_click(event);
             break;
         }
     }
