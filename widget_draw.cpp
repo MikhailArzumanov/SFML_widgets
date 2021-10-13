@@ -1,6 +1,5 @@
 #include "widget.hpp"
 
-#define in :
 #define of :
 #define let auto
 
