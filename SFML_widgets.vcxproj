@@ -142,10 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="animated.cpp" />
     <ClCompile Include="animated_close_constructors.cpp" />
     <ClCompile Include="animated_close_onclick.cpp" />
-    <ClCompile Include="animated_widget_animate.cpp" />
+    <ClCompile Include="animated_widget_tick.cpp" />
     <ClCompile Include="animated_widget_constructors.cpp" />
     <ClCompile Include="animated_widget_draw.cpp" />
     <ClCompile Include="clear_memory.cpp" />
@@ -164,12 +163,10 @@
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
-    <ClCompile Include="widget_close_click.cpp" />
-    <ClCompile Include="widget_close_constructors.cpp" />
-    <ClCompile Include="widget_constructors.cpp" />
     <ClCompile Include="widget_draw.cpp" />
     <ClCompile Include="widget_process_click.cpp" />
     <ClCompile Include="widget_set_visibility.cpp" />
+    <ClCompile Include="widget_tick.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -177,11 +174,9 @@
     <ClInclude Include="animated_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
-    <ClInclude Include="i_animatable.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="widget.hpp" />
-    <ClInclude Include="widget_close.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
