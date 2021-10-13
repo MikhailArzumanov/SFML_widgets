@@ -161,6 +161,7 @@
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
     <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="tick.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
     <ClCompile Include="widget_draw.cpp" />
