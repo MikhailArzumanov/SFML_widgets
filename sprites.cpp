@@ -1,8 +1,9 @@
 #include "environment.hpp"
 
+const int sprites_amount = 2;
+
 std::string* paths = new std::string[sprites_amount]{
     "test.png",
-    "close.png",
     "close_animated.png",
 };
 sf::Texture* textures = new sf::Texture[sprites_amount];

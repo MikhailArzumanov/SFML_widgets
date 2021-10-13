@@ -64,14 +64,8 @@
     <Filter Include="Файлы заголовков\environment\structs">
       <UniqueIdentifier>{97da18b6-70dd-482e-b42a-aaf03f525ceb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\widget_close">
-      <UniqueIdentifier>{2c7f6782-4cdf-4f79-badf-5979562e7d8d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\animated_widget">
       <UniqueIdentifier>{0779b05c-f7d7-43ca-b81c-ebbdc922f509}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\widget\interfaces">
-      <UniqueIdentifier>{005c3d84-973d-4abb-8c52-1bdf3d8e4338}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\animated_close">
       <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
@@ -123,9 +117,6 @@
     <ClCompile Include="widget_add_child.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
-    <ClCompile Include="widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\self</Filter>
-    </ClCompile>
     <ClCompile Include="widget_draw.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
@@ -135,26 +126,14 @@
     <ClCompile Include="widget_process_click.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
-    <ClCompile Include="image_widget_on_click.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
-    </ClCompile>
-    <ClCompile Include="widget_close_click.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\widget_close</Filter>
-    </ClCompile>
-    <ClCompile Include="widget_close_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\widget_close</Filter>
-    </ClCompile>
     <ClCompile Include="animated_widget_draw.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_constructors.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\animated_widget</Filter>
     </ClCompile>
-    <ClCompile Include="animated_widget_animate.cpp">
+    <ClCompile Include="animated_widget_tick.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\animated_widget</Filter>
-    </ClCompile>
-    <ClCompile Include="animated.cpp">
-      <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
     <ClCompile Include="animated_close_constructors.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\animated_close</Filter>
@@ -164,6 +143,12 @@
     </ClCompile>
     <ClCompile Include="clock.cpp">
       <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="widget_tick.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
+    <ClCompile Include="image_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\image_widget</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -185,14 +170,8 @@
     <ClInclude Include="point.hpp">
       <Filter>Файлы заголовков\environment\structs</Filter>
     </ClInclude>
-    <ClInclude Include="widget_close.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
-    </ClInclude>
     <ClInclude Include="animated_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
-    </ClInclude>
-    <ClInclude Include="i_animatable.hpp">
-      <Filter>Файлы заголовков\widget\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="animated_close.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors</Filter>

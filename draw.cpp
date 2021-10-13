@@ -2,7 +2,6 @@
 #include "window.hpp"
 #include "environment.hpp"
 
-#define in :
 #define of :
 #define let auto
 
