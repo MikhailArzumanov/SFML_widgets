@@ -9,6 +9,9 @@ point point::operator-(point right) {
 void point::operator>>(sf::Sprite* sprite) {
     sprite->setPosition(x, y);
 }
+void point::operator>>(sf::Shape* shape) {
+    shape->setPosition(x, y);
+}
 bool point::operator<(point another) {
     return x<another.x && y<another.y;
 }
