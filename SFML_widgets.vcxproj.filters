@@ -70,6 +70,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\animated_close">
       <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\rect_widget">
+      <UniqueIdentifier>{4b182746-063c-4672-a8c3-6ed6cb8ba417}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -153,6 +156,15 @@
     <ClCompile Include="tick.cpp">
       <Filter>Исходные файлы\main_program\cycle</Filter>
     </ClCompile>
+    <ClCompile Include="widgets_process_click.cpp">
+      <Filter>Исходные файлы\main_program\handle_events</Filter>
+    </ClCompile>
+    <ClCompile Include="rect_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\rect_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="rect_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\rect_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -178,6 +190,9 @@
     </ClInclude>
     <ClInclude Include="animated_close.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="rect_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
