@@ -163,6 +163,7 @@
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="tick.cpp" />
     <ClCompile Include="widgets.cpp" />
+    <ClCompile Include="widgets_process_click.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
     <ClCompile Include="widget_draw.cpp" />
     <ClCompile Include="widget_process_click.cpp" />

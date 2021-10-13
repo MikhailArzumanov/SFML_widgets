@@ -153,6 +153,9 @@
     <ClCompile Include="tick.cpp">
       <Filter>Исходные файлы\main_program\cycle</Filter>
     </ClCompile>
+    <ClCompile Include="widgets_process_click.cpp">
+      <Filter>Исходные файлы\main_program\handle_events</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
