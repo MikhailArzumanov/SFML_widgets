@@ -73,6 +73,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\rect_widget">
       <UniqueIdentifier>{4b182746-063c-4672-a8c3-6ed6cb8ba417}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\text_widget">
+      <UniqueIdentifier>{a8235d25-6118-4ede-8cbe-a90eef933efb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -165,6 +168,21 @@
     <ClCompile Include="rect_widget_draw.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\rect_widget</Filter>
     </ClCompile>
+    <ClCompile Include="text_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="text_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="text_widget_set_content.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="fonts.cpp">
+      <Filter>Исходные файлы\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="init_fonts.cpp">
+      <Filter>Исходные файлы\main_program\init</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -192,6 +210,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
     </ClInclude>
     <ClInclude Include="rect_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="text_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>

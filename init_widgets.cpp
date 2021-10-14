@@ -1,6 +1,7 @@
+#include "animated_close.hpp"
 #include "main_programm.hpp"
 #include "image_widget.hpp"
-#include "animated_close.hpp"
+#include "text_widget.hpp"
 #include "environment.hpp"
 
 void init_widgets() {

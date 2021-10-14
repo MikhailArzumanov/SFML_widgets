@@ -2,7 +2,7 @@
 
 const int sprites_amount = 2;
 
-std::string* paths = new std::string[sprites_amount]{
+std::string* textures_paths = new std::string[sprites_amount]{
     "test.png",
     "close_animated.png",
 };
