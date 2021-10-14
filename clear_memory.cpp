@@ -11,10 +11,15 @@ void clear_widgets() {
 void clear_sprites() {
     delete[] sprites;
     delete[] textures;
-    delete[] paths;
+    delete[] textures_paths;
+}
+void clear_fonts() {
+    delete[] fonts;
+    delete[] fonts_paths;
 }
 
 void clear_memory() {
     clear_widgets();
     clear_sprites();
+    clear_fonts();
 }

@@ -151,11 +151,13 @@
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
     <ClCompile Include="draw.cpp" />
+    <ClCompile Include="fonts.cpp" />
     <ClCompile Include="handle_events.cpp" />
     <ClCompile Include="image_widget_constructors.cpp" />
     <ClCompile Include="image_widget_draw.cpp" />
     <ClCompile Include="image_widget_on_click.cpp" />
     <ClCompile Include="init.cpp" />
+    <ClCompile Include="init_fonts.cpp" />
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_widgets.cpp" />
     <ClCompile Include="point_operators.cpp" />
@@ -163,6 +165,9 @@
     <ClCompile Include="rect_widget_draw.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
     <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="text_widget_constructors.cpp" />
+    <ClCompile Include="text_widget_draw.cpp" />
+    <ClCompile Include="text_widget_set_content.cpp" />
     <ClCompile Include="tick.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widgets_process_click.cpp" />
@@ -181,6 +186,7 @@
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="rect_widget.hpp" />
+    <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>

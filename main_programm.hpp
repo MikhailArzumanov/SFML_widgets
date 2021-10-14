@@ -3,6 +3,7 @@
 
 void init_widgets();
 void init_sprites();
+void init_fonts();
 void init();
 
 void draw_widgets();
