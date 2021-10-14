@@ -12,6 +12,9 @@ void point::operator>>(sf::Sprite* sprite) {
 void point::operator>>(sf::Shape* shape) {
     shape->setPosition(x, y);
 }
+void point::operator>>(sf::Text* text) {
+    text->setPosition(x, y);
+}
 bool point::operator<(point another) {
     return x<another.x && y<another.y;
 }
