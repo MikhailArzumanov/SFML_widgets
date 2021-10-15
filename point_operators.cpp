@@ -6,6 +6,12 @@ point point::operator+(point right) {
 point point::operator-(point right) {
     return point{x-right.x, y-right.y };
 }
+void point::operator-=(point right) {
+    x -= right.x; y -= right.y;
+}
+point point::operator/(float divisor) {
+    return {x/divisor, y/divisor};
+}
 void point::operator>>(sf::Sprite* sprite) {
     sprite->setPosition(x, y);
 }

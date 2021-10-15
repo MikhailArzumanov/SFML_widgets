@@ -147,6 +147,7 @@
     <ClCompile Include="animated_widget_tick.cpp" />
     <ClCompile Include="animated_widget_constructors.cpp" />
     <ClCompile Include="animated_widget_draw.cpp" />
+    <ClCompile Include="button_widget_constructors.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
@@ -181,6 +182,7 @@
   <ItemGroup>
     <ClInclude Include="animated_close.hpp" />
     <ClInclude Include="animated_widget.hpp" />
+    <ClInclude Include="button_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
