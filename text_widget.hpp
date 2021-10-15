@@ -3,9 +3,9 @@
 
 class TextWidget : public Widget {
 protected:
-	TextWidget(){}
+	TextWidget() {}
 	std::string content;
-	sf::Text*	   text;
+	sf::Text* text;
 
 	int	 font_size;
 	sf::Font* font;
@@ -14,4 +14,6 @@ public:
 	virtual void draw(point shift);
 	virtual void on_click() {}
 	virtual void set_content(std::string content_);
+	void set_p(point p_);
+	sf::FloatRect getTextRect();
 };

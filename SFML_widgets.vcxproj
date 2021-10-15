@@ -168,7 +168,9 @@
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />
+    <ClCompile Include="text_widget_get_textrect.cpp" />
     <ClCompile Include="text_widget_set_content.cpp" />
+    <ClCompile Include="text_widget_set_p.cpp" />
     <ClCompile Include="tick.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widgets_process_click.cpp" />
