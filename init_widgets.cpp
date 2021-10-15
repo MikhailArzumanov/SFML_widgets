@@ -9,6 +9,4 @@
 void init_widgets() {
     widgets.push_back(new ImageWidget(sprites[0], point{400, 0}));
     widgets.push_back(new AnimatedClose(point{1216, 0}));
-    widgets.push_back(new ButtonWidget(fonts[0], 12, sf::Color::Blue, "abcdefgfedcba",
-                                        sf::Color::Cyan, { 120,83 }, { 0,0 }));
 }
