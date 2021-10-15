@@ -76,6 +76,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\text_widget">
       <UniqueIdentifier>{a8235d25-6118-4ede-8cbe-a90eef933efb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\button_widget">
+      <UniqueIdentifier>{21864414-6e04-40c9-a793-8412d505aceb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -183,6 +186,15 @@
     <ClCompile Include="init_fonts.cpp">
       <Filter>Исходные файлы\main_program\init</Filter>
     </ClCompile>
+    <ClCompile Include="button_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="text_widget_set_p.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="text_widget_get_textrect.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -213,6 +225,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="button_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>

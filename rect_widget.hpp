@@ -2,11 +2,12 @@
 #include "widget.hpp"
 
 class RectWidget : public Widget {
-public:
+private:
+protected:
     sf::RectangleShape* rect;
+    RectWidget();
 public:
     virtual void draw(point shift);
     virtual void on_click() {}
-    RectWidget();
-    RectWidget(point size_, point p_, sf::Color color_);
+    RectWidget(point dims_, point p_, sf::Color color_);
 };

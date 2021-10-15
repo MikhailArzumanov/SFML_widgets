@@ -147,6 +147,7 @@
     <ClCompile Include="animated_widget_tick.cpp" />
     <ClCompile Include="animated_widget_constructors.cpp" />
     <ClCompile Include="animated_widget_draw.cpp" />
+    <ClCompile Include="button_widget_constructors.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
@@ -167,7 +168,9 @@
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />
+    <ClCompile Include="text_widget_get_textrect.cpp" />
     <ClCompile Include="text_widget_set_content.cpp" />
+    <ClCompile Include="text_widget_set_p.cpp" />
     <ClCompile Include="tick.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widgets_process_click.cpp" />
@@ -181,6 +184,7 @@
   <ItemGroup>
     <ClInclude Include="animated_close.hpp" />
     <ClInclude Include="animated_widget.hpp" />
+    <ClInclude Include="button_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
