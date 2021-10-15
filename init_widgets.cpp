@@ -1,6 +1,8 @@
 #include "animated_close.hpp"
 #include "main_programm.hpp"
+#include "button_widget.hpp"
 #include "image_widget.hpp"
+#include "rect_widget.hpp"
 #include "text_widget.hpp"
 #include "environment.hpp"
 
