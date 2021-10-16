@@ -6,7 +6,7 @@ const float UPPER_MARGIN  = 0.28;
 
 ButtonWidget::ButtonWidget(){}
 ButtonWidget::ButtonWidget(sf::Font& font_, int font_size_, sf::Color font_color, std::string content_,
-	sf::Color rect_color, point dims_, point p_) {
+	void (*onclick_)(),sf::Color rect_color, point dims_, point p_) {
 	point pos = dims_/2.f;
 	text = new TextWidget(font_, font_size_, font_color, content_, { 0,0 }, pos);
 	sf::FloatRect frect = text->getTextRect();
@@ -18,4 +18,6 @@ ButtonWidget::ButtonWidget(sf::Font& font_, int font_size_, sf::Color font_color
 	p = p_;
 
 	add_child(text);
+
+	onclick = onclick_;
 }
