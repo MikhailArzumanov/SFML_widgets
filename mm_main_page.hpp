@@ -7,6 +7,7 @@ class MM_MainPage : public Widget {
 	MenuWidget*   parent;
 	ButtonWidget* settings_btn;
 	ButtonWidget* credits_btn;
-
-	MM_MainPage();
+public:
+	void on_click() {}
+	MM_MainPage(MenuWidget* parent_);
 };
