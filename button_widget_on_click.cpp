@@ -2,5 +2,5 @@
 
 void ButtonWidget::on_click() {
 	if (onclick != nullptr)
-		onclick();
+		onclick(parent);
 }
