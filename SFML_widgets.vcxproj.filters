@@ -195,6 +195,9 @@
     <ClCompile Include="text_widget_get_textrect.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_widget</Filter>
     </ClCompile>
+    <ClCompile Include="button_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">

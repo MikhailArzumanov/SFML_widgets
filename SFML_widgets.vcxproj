@@ -148,6 +148,7 @@
     <ClCompile Include="animated_widget_constructors.cpp" />
     <ClCompile Include="animated_widget_draw.cpp" />
     <ClCompile Include="button_widget_constructors.cpp" />
+    <ClCompile Include="button_widget_on_click.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
