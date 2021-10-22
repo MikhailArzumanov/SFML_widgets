@@ -6,13 +6,14 @@
 class ButtonWidget : public RectWidget {
 private:
 	TextWidget* text;
-	void (*onclick)();
+	Widget* parent;
+	void (*onclick)(Widget*);
 
 protected:
 	ButtonWidget();
 public:
 	
 	ButtonWidget(sf::Font& font_, int font_size_, sf::Color font_color, std::string content_, 
-					void (*onclick_)(), sf::Color rect_color, point dims_, point p_);
+					void (*onclick_)(Widget*), Widget* parent_, sf::Color rect_color, point dims_, point p_);
 	virtual void on_click();
 };
