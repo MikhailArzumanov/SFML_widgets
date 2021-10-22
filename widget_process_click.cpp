@@ -4,6 +4,7 @@
 #define of :
 
 void Widget::process_click(point mouse_shift, Widget*& result_pointer) {
+	if (!isVisible) return;
 	if (p< mouse_shift && mouse_shift-p < dims)
 		result_pointer = this;
 	for (let child of children)
