@@ -6,8 +6,11 @@ MenuWidget::MenuWidget() {
 
 	main_page	  = new MM_MainPage(this);
 	settings_page = new MM_SettingsPage(this);
+	credits_page = new MM_CreditsPage(this);
 	main_page->set_visibility(true);
 	settings_page->set_visibility(false);
+	credits_page->set_visibility(false);
 	children.push_back(main_page);
-	children.push_back(settings_page );
+	children.push_back(settings_page);
+	children.push_back(credits_page);
 }
