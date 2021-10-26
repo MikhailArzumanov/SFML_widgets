@@ -164,8 +164,9 @@
     <ClCompile Include="init_widgets.cpp" />
     <ClCompile Include="main_menu_events.cpp" />
     <ClCompile Include="menu_widget_constructors.cpp" />
+    <ClCompile Include="mm_credits_page_constructors.cpp" />
     <ClCompile Include="mm_main_page_constructors.cpp" />
-    <ClCompile Include="mm_settings_page_constructor.cpp" />
+    <ClCompile Include="mm_settings_page_constructors.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
@@ -194,6 +195,7 @@
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="menu_widget.hpp" />
+    <ClInclude Include="mm_credits_page.hpp" />
     <ClInclude Include="mm_main_page.hpp" />
     <ClInclude Include="mm_settings_page.hpp" />
     <ClInclude Include="point.hpp" />

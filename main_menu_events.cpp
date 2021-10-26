@@ -8,7 +8,6 @@ void MenuWidget::settings_to_main() {
 	main_page->set_visibility(true);
 	settings_page->set_visibility(false);
 }
-
 void MenuWidget::main_to_credits() {
 	main_page->set_visibility(false);
 	credits_page->set_visibility(true);
@@ -28,7 +27,6 @@ void menu_event_stom(Widget* menu) {
 	auto menu_ = (MenuWidget*)menu;
 	menu_->settings_to_main();
 }
-
 void menu_event_mtoc(Widget* menu) {
 	auto menu_ = (MenuWidget*)menu;
 	menu_->main_to_credits();
