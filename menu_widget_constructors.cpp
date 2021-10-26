@@ -2,8 +2,7 @@
 
 MenuWidget::MenuWidget() {
 	p = { 0,0 };
-	dims = { 1920,1080 };
-
+	dims = { 1080,720 };
 
 	main_page	  = new MM_MainPage(this);
 	settings_page = new MM_SettingsPage(this);
