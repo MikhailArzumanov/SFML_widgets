@@ -166,6 +166,7 @@
     <ClCompile Include="menu_widget_constructors.cpp" />
     <ClCompile Include="mm_credits_page_constructors.cpp" />
     <ClCompile Include="mm_main_page_constructors.cpp" />
+    <ClCompile Include="mm_main_page_events.cpp" />
     <ClCompile Include="mm_settings_page_constructors.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="rect_widget_constructors.cpp" />
