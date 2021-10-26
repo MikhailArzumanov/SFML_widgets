@@ -7,6 +7,7 @@ MM_SettingsPage::MM_SettingsPage(Widget* parent_) {
 	dims = { 1080,720 };
 
 	parent = parent_;
-	main_menu_btn = new ButtonWidget(fonts[0], 12, sf::Color::Cyan, "main menu", menu_event_stom, parent, sf::Color::White, {200,100}, {325,313});
+	main_menu_btn = new ButtonWidget(fonts[0], 12, sf::Color::Cyan, "main menu", menu_event_stom, parent, 
+										sf::Color::White, {230,120}, { 38,23 });
 	children.push_back(main_menu_btn);
 }
