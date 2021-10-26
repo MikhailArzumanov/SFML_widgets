@@ -231,6 +231,9 @@
     <ClCompile Include="mm_credits_page_constructors.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_credits_page</Filter>
     </ClCompile>
+    <ClCompile Include="mm_main_page_events.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_main_page</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
