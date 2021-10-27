@@ -10,5 +10,5 @@ void widgets_process_click(sf::Event& event) {
     for (let widget of widgets)
         widget->process_click(mouse, result);
     if (result != nullptr)
-        result->on_click();
+        result->on_click(mouse);
 }
