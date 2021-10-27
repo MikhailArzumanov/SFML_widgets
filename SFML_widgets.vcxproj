@@ -166,6 +166,9 @@
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
+    <ClCompile Include="slider_widget_constructors.cpp" />
+    <ClCompile Include="slider_widget_draw.cpp" />
+    <ClCompile Include="slider_widget_on_click.cpp" />
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />

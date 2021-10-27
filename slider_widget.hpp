@@ -11,7 +11,7 @@ protected:
 public:
 	float get_precentage() {return percentage;};
 	void on_click(point mouse);
-	void draw();
+	void draw(point shift);
 	SliderWidget();
 	SliderWidget(Widget* parent_, void (*onchange_)(Widget*, float), point dims_, point p_);
 	SliderWidget(Widget* parent_, sf::Color slider_color, sf::Color line_color, void (*onchange_)(Widget*, float), point dims_, point p_);

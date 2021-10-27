@@ -201,6 +201,15 @@
     <ClCompile Include="button_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
     </ClCompile>
+    <ClCompile Include="slider_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="slider_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="slider_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
