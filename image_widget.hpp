@@ -6,7 +6,7 @@ public:
     sf::Sprite* sprite;
 public:
     virtual void draw(point shift);
-    virtual void on_click(){}
+    virtual void on_click(point mouse){}
     ImageWidget();
     ImageWidget(sf::Sprite& sprite_, point p_);
 };
