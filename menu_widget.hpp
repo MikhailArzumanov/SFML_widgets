@@ -11,7 +11,7 @@ class MenuWidget : public Widget {
 
 public:
 	MenuWidget();
-	void on_click();
+	void on_click(point mouse);
 	
 	void main_to_settings();
 	void settings_to_main();
