@@ -8,6 +8,6 @@ protected:
     RectWidget();
 public:
     virtual void draw(point shift);
-    virtual void on_click() {}
+    virtual void on_click(point mouse) {}
     RectWidget(point dims_, point p_, sf::Color color_);
 };

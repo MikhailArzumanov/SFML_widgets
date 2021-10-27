@@ -16,5 +16,5 @@ public:
     virtual void tick();
     virtual void draw(point shift);
     virtual void add_child(Widget* child);
-    virtual void on_click() = 0;
+    virtual void on_click(point mouse) = 0;
 };
