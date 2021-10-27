@@ -79,23 +79,8 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\button_widget">
       <UniqueIdentifier>{21864414-6e04-40c9-a793-8412d505aceb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widget\widget_inheritors\main_menu">
-      <UniqueIdentifier>{374e263b-9a9e-4f0a-9d58-ae2005c16877}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu">
-      <UniqueIdentifier>{b689b1d2-7cf2-42ad-aa8c-51258d4dffe0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\menu_widget">
-      <UniqueIdentifier>{4e4b6ae7-ae45-46ee-922d-0a7b56ab9eb8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\mm_main_page">
-      <UniqueIdentifier>{759cc110-f10b-4ac0-93df-5d88e1ef8e13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\mm_settings_page">
-      <UniqueIdentifier>{2e4a9cc0-6d26-4ff1-a885-3ffb2ba52a1c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\mm_credits_page">
-      <UniqueIdentifier>{583b23fa-dabf-49b6-adc7-d2d63589eefd}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\slider_widget">
+      <UniqueIdentifier>{35e564fd-259c-4aac-99cb-85fcb6dfe3cf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -216,23 +201,14 @@
     <ClCompile Include="button_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
     </ClCompile>
-    <ClCompile Include="menu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\menu_widget</Filter>
+    <ClCompile Include="slider_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
     </ClCompile>
-    <ClCompile Include="mm_main_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_main_page</Filter>
+    <ClCompile Include="slider_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
     </ClCompile>
-    <ClCompile Include="main_menu_events.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\menu_widget</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_settings_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_settings_page</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_credits_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_credits_page</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_main_page_events.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\mm_main_page</Filter>
+    <ClCompile Include="slider_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -269,17 +245,8 @@
     <ClInclude Include="button_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
-    <ClInclude Include="menu_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_main_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_settings_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_credits_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
+    <ClInclude Include="slider_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
