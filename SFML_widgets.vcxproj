@@ -191,6 +191,7 @@
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="rect_widget.hpp" />
+    <ClInclude Include="slider_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />

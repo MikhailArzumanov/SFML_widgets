@@ -79,6 +79,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\button_widget">
       <UniqueIdentifier>{21864414-6e04-40c9-a793-8412d505aceb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\slider_widget">
+      <UniqueIdentifier>{35e564fd-259c-4aac-99cb-85fcb6dfe3cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -231,6 +234,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="button_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="slider_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
