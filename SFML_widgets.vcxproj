@@ -166,6 +166,9 @@
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
+    <ClCompile Include="slider_widget_constructors.cpp" />
+    <ClCompile Include="slider_widget_draw.cpp" />
+    <ClCompile Include="slider_widget_on_click.cpp" />
     <ClCompile Include="sprites.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />
@@ -191,6 +194,7 @@
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="rect_widget.hpp" />
+    <ClInclude Include="slider_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />
