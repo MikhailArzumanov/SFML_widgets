@@ -17,7 +17,7 @@ void MenuWidget::credits_to_main() {
 	credits_page->set_visibility(false);
 }
 
-void MenuWidget::on_click(){}
+void MenuWidget::on_click(point mouse){}
 
 void menu_event_mtos(Widget* menu) {
 	auto menu_ = (MenuWidget*)menu;

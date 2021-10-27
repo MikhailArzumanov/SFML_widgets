@@ -8,7 +8,7 @@ class MM_MainPage : public Widget {
 	ButtonWidget* credits_btn;
 	ButtonWidget* exit_button;
 public:
-	void on_click() {}
+	void on_click(point mouse) {}
 	MM_MainPage(Widget* parent_);
 };
 

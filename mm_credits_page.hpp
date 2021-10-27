@@ -10,6 +10,6 @@ class MM_CreditsPage : public Widget {
 	TextWidget* credits;
 
 public:
-	void on_click() {}
+	void on_click(point mouse) {}
 	MM_CreditsPage(Widget* parent_);
 };
