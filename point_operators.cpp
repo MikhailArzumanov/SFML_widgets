@@ -6,6 +6,9 @@ point point::operator+(point right) {
 point point::operator-(point right) {
     return point{x-right.x, y-right.y };
 }
+point point::operator*(float r) {
+    return point{ x * r, y * r };
+}
 void point::operator-=(point right) {
     x -= right.x; y -= right.y;
 }
