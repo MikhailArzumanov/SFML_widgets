@@ -169,6 +169,9 @@
     <ClCompile Include="mm_main_page_events.cpp" />
     <ClCompile Include="mm_settings_page_constructors.cpp" />
     <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="progress_bar_widget_constructors.cpp" />
+    <ClCompile Include="progress_bar_widget_draw.cpp" />
+    <ClCompile Include="progress_bar_widget_set_ratio.cpp" />
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
@@ -203,6 +206,7 @@
     <ClInclude Include="mm_main_page.hpp" />
     <ClInclude Include="mm_settings_page.hpp" />
     <ClInclude Include="point.hpp" />
+    <ClInclude Include="progress_bar_widget.hpp" />
     <ClInclude Include="rect_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
