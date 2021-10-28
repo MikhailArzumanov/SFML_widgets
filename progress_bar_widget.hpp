@@ -9,6 +9,7 @@ class ProgressBarWidget : public Widget {
 
 
 public:
+	void on_click(point mouse) {}
 	void set_ratio(float ratio_);
 	void draw(point shift);
 	ProgressBarWidget();
