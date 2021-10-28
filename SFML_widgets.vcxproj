@@ -163,6 +163,9 @@
     <ClCompile Include="init_sprites.cpp" />
     <ClCompile Include="init_widgets.cpp" />
     <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="progress_bar_widget_constructors.cpp" />
+    <ClCompile Include="progress_bar_widget_draw.cpp" />
+    <ClCompile Include="progress_bar_widget_set_ratio.cpp" />
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
@@ -193,6 +196,7 @@
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="point.hpp" />
+    <ClInclude Include="progress_bar_widget.hpp" />
     <ClInclude Include="rect_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
