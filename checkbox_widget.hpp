@@ -9,7 +9,7 @@ class CheckboxWidget : public Widget {
 public:
 	bool getValue() { return value; }
 	virtual void on_click();
-	void draw();
-	CheckboxWidget(point shift);
+	void draw(point shift);
+	CheckboxWidget();
 	CheckboxWidget(point dims_, point p_);
 };
