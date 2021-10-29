@@ -103,6 +103,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\progress_bar_widget">
       <UniqueIdentifier>{7a623b53-9493-47db-9863-6f13f141f29c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget">
+      <UniqueIdentifier>{7bc78922-f689-4173-8d8c-1e366b93f0d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -258,6 +261,15 @@
     <ClCompile Include="progress_bar_widget_set_ratio.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\progress_bar_widget</Filter>
     </ClCompile>
+    <ClCompile Include="checkbox_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="checkox_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -309,6 +321,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="progress_bar_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
