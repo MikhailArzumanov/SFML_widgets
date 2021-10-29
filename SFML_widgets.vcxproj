@@ -149,6 +149,9 @@
     <ClCompile Include="animated_widget_draw.cpp" />
     <ClCompile Include="button_widget_constructors.cpp" />
     <ClCompile Include="button_widget_on_click.cpp" />
+    <ClCompile Include="checkbox_draw.cpp" />
+    <ClCompile Include="checkbox_on_click.cpp" />
+    <ClCompile Include="checkox_widget_constructors.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
@@ -192,6 +195,7 @@
     <ClInclude Include="animated_close.hpp" />
     <ClInclude Include="animated_widget.hpp" />
     <ClInclude Include="button_widget.hpp" />
+    <ClInclude Include="checkbox_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
