@@ -1,0 +1,17 @@
+#include "checkbox_widget.hpp"
+
+CheckboxWidget::CheckboxWidget() {}
+
+void init_lines(sf::Vertex* left, sf::Vertex* right, point dims, point p) {
+	left = new sf::Vertex[2];
+	left[0].position = sf::Vector2f({ p.x,p.y - dims.y / 4.f });
+	left[1].position = sf::Vector2f({ p.x + dims.x / 2.f,p.y + dims.y / 2.f });
+	right = new sf::Vertex[2];
+	right[0].position = sf::Vector2f({ p.x + dims.x / 2.f,p.y + dims.y / 2.f });
+	right[1].position = sf::Vector2f({ p.x + dims.x, p.y - dims.y / 2.f });
+}
+CheckboxWidget::CheckboxWidget(point dims_, point p_) {
+	dims = dims_; p = p_;
+	init_lines(left_line, right_line, dims, p);
+	box = new sf::RectangleShape({ dims.x,dims.y });
+}
