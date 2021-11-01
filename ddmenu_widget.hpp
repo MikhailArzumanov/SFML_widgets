@@ -23,7 +23,7 @@ public:
 	virtual void choose(int index);
 	virtual void show_hide();
 	virtual void on_click(point mouse) {}
-	virtual void on_change() = 0;
+	virtual void on_change(std::string new_val) = 0;
 };
 
 void ddmenu_event_shwhd(Widget* parent);

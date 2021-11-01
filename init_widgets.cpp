@@ -1,3 +1,4 @@
+#include "test_ddmenu_widget.hpp"
 #include "animated_close.hpp"
 #include "main_programm.hpp"
 #include "button_widget.hpp"
@@ -20,4 +21,5 @@ void init_widgets() {
                                         sf::Color::White, { 325,313 }, { 12,12 }));
 
     widgets.push_back(new SliderWidget(nullptr, nullptr, { 230,120 }, { 12,340 }));
+    widgets.push_back(new TestDDMenuWidget(fonts[0], { 380,380 }));
 }

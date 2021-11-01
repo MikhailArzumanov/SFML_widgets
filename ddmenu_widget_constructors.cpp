@@ -17,6 +17,7 @@ DDMenuWidget::DDMenuWidget(int vals_amount_, std::string* vals_, std::string plc
 		options[i] = DDMenuOptionWidget(font_, font_size_, color, bgrnd_color, i, vals[i], this,
 			point{dims.x, (float)tile_height}, point{0.f, dims.y + tile_height*i});
 		options[i].set_visibility(false);
+		children.push_back(&options[i]);
 	}
 
 }
