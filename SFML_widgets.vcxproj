@@ -149,12 +149,19 @@
     <ClCompile Include="animated_widget_draw.cpp" />
     <ClCompile Include="button_widget_constructors.cpp" />
     <ClCompile Include="button_widget_on_click.cpp" />
+    <ClCompile Include="button_widget_set_text.cpp" />
     <ClCompile Include="checkbox_draw.cpp" />
     <ClCompile Include="checkbox_on_click.cpp" />
     <ClCompile Include="checkox_widget_constructors.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="cycle.cpp" />
+    <ClCompile Include="ddmenu_events.cpp" />
+    <ClCompile Include="ddmenu_option_widget_constructors.cpp" />
+    <ClCompile Include="ddmenu_option_widget_on_click.cpp" />
+    <ClCompile Include="ddmenu_show_hide.cpp" />
+    <ClCompile Include="ddmenu_widget_choose.cpp" />
+    <ClCompile Include="ddmenu_widget_constructors.cpp" />
     <ClCompile Include="draw.cpp" />
     <ClCompile Include="fonts.cpp" />
     <ClCompile Include="handle_events.cpp" />
@@ -182,6 +189,8 @@
     <ClCompile Include="slider_widget_draw.cpp" />
     <ClCompile Include="slider_widget_on_click.cpp" />
     <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="test_ddmenu_widget_constructors.cpp" />
+    <ClCompile Include="test_ddmenu_widget_on_change.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />
     <ClCompile Include="text_widget_get_textrect.cpp" />
@@ -202,6 +211,8 @@
     <ClInclude Include="animated_widget.hpp" />
     <ClInclude Include="button_widget.hpp" />
     <ClInclude Include="checkbox_widget.hpp" />
+    <ClInclude Include="ddmenu_option_widget.hpp" />
+    <ClInclude Include="ddmenu_widget.hpp" />
     <ClInclude Include="environment.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
@@ -213,6 +224,7 @@
     <ClInclude Include="progress_bar_widget.hpp" />
     <ClInclude Include="rect_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
+    <ClInclude Include="test_ddmenu_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />

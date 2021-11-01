@@ -12,6 +12,9 @@ point point::operator*(float r) {
 void point::operator-=(point right) {
     x -= right.x; y -= right.y;
 }
+void point::operator+=(point right) {
+    x += right.x; y += right.y;
+}
 point point::operator/(float divisor) {
     return {x/divisor, y/divisor};
 }
