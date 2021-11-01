@@ -6,6 +6,7 @@ struct point {
     point operator-(point right);
     point operator*(float r);
     void operator-=(point right);
+    void operator+=(point right);
     point operator/(float divisor);
     void operator>>(sf::Sprite* sprite);
     void operator>>(sf::Shape*   shape);
