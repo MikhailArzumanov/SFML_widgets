@@ -1,6 +1,8 @@
 #pragma once
 #include "widget.hpp"
 #include "button_widget.hpp"
+#include "ddmenu_option_widget.hpp"
+class DDMenuOptionWidget;
 
 class DDMenuWidget : public Widget {
 protected:
@@ -11,6 +13,8 @@ protected:
 	sf::Font* font;
 	bool is_collapsed;
 	ButtonWidget* expand_button;
+	DDMenuOptionWidget* options;
+
 public:
 	DDMenuWidget();
 	DDMenuWidget(int vals_amount_, std::string* vals_, std::string plchldr_,

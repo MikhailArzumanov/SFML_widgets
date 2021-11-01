@@ -1,5 +1,5 @@
 #include "ddmenu_option_widget.hpp"
-
+DDMenuOptionWidget::DDMenuOptionWidget() {}
 DDMenuOptionWidget::DDMenuOptionWidget(sf::Font& font_, int font_size_, sf::Color color, sf::Color bgrnd_color,
 	int index_, std::string value_, DDMenuWidget* parent_, point dims_, point p_) {
 	point pos = dims_ / 2.f;

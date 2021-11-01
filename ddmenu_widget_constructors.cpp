@@ -12,8 +12,11 @@ DDMenuWidget::DDMenuWidget(int vals_amount_, std::string* vals_, std::string plc
 	expand_button = new ButtonWidget(font_, font_size_, color, plchldr, ddmenu_event_shwhd, this, bgrnd_color, dims, { 0,0 });
 	children.push_back(expand_button);
 
+	options = new DDMenuOptionWidget[vals_amount];
 	for (int i = 0; i < vals_amount; i++) {
-		//Init options
+		options[i] = DDMenuOptionWidget(font_, font_size_, color, bgrnd_color, i, vals[i], this,
+			point{dims.x, (float)tile_height}, point{0.f, dims.y + tile_height*i});
+		options[i].set_visibility(false);
 	}
 
 }
