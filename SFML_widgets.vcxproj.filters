@@ -88,9 +88,6 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget">
       <UniqueIdentifier>{99e90662-79c5-441f-b255-f06d37172714}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\test_ddmenu_widget">
-      <UniqueIdentifier>{8b507200-551e-45d7-b0f8-7c7b930e36d3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\ddmenu_option_widget">
       <UniqueIdentifier>{8b8b15e3-38ca-44ab-891a-745ef6b2556f}</UniqueIdentifier>
     </Filter>
@@ -261,12 +258,6 @@
     <ClCompile Include="ddmenu_option_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\ddmenu_option_widget</Filter>
     </ClCompile>
-    <ClCompile Include="test_ddmenu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\test_ddmenu_widget</Filter>
-    </ClCompile>
-    <ClCompile Include="test_ddmenu_widget_on_change.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\test_ddmenu_widget</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -315,9 +306,6 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_option_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
-    </ClInclude>
-    <ClInclude Include="test_ddmenu_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
     </ClInclude>
   </ItemGroup>
