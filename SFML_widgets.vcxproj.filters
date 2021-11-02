@@ -82,35 +82,14 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\slider_widget">
       <UniqueIdentifier>{35e564fd-259c-4aac-99cb-85fcb6dfe3cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu">
-      <UniqueIdentifier>{7ec7ea65-882e-44da-a4e4-b47cca928190}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\self">
-      <UniqueIdentifier>{95dfad00-c1df-48cd-8840-4105e504f8ca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\credits_page">
-      <UniqueIdentifier>{0a4ab0fe-83bb-45a8-9cb7-65cae4eee1aa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\main_page">
-      <UniqueIdentifier>{dcdfe3f1-117d-4e55-9dbd-71b51d157ca3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\main_menu\settings_page">
-      <UniqueIdentifier>{76465b99-a5a0-4094-9cd8-a5954fa6b65b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\widget\widget_inheritors\main_menu">
-      <UniqueIdentifier>{dc372cb3-f664-4af8-810e-3ed8292346cf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\progress_bar_widget">
-      <UniqueIdentifier>{7a623b53-9493-47db-9863-6f13f141f29c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget">
-      <UniqueIdentifier>{7bc78922-f689-4173-8d8c-1e366b93f0d6}</UniqueIdentifier>
+      <UniqueIdentifier>{3fa3b47c-9066-4122-8a0b-2416bf8c7789}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget">
-      <UniqueIdentifier>{a97a787a-bd5d-4bc6-ac78-2bf6c600f0a1}</UniqueIdentifier>
+      <UniqueIdentifier>{99e90662-79c5-441f-b255-f06d37172714}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_inheritors\ddmenu_option_widget">
-      <UniqueIdentifier>{078a9812-a828-400b-96bc-f09739c28cc1}</UniqueIdentifier>
+      <UniqueIdentifier>{8b8b15e3-38ca-44ab-891a-745ef6b2556f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -240,24 +219,6 @@
     <ClCompile Include="slider_widget_constructors.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\slider_widget</Filter>
     </ClCompile>
-    <ClCompile Include="main_menu_events.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\self</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_credits_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\credits_page</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_main_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\main_page</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_main_page_events.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\main_page</Filter>
-    </ClCompile>
-    <ClCompile Include="menu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\self</Filter>
-    </ClCompile>
-    <ClCompile Include="mm_settings_page_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\settings_page</Filter>
-    </ClCompile>
     <ClCompile Include="progress_bar_widget_constructors.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\progress_bar_widget</Filter>
     </ClCompile>
@@ -268,19 +229,16 @@
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_draw.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_on_click.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="checkox_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ddmenu_option_widget_on_click.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\ddmenu_option_widget</Filter>
-    </ClCompile>
-    <ClCompile Include="ddmenu_option_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\ddmenu_option_widget</Filter>
+    <ClCompile Include="ddmenu_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_events.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget</Filter>
@@ -291,11 +249,14 @@
     <ClCompile Include="ddmenu_widget_choose.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget</Filter>
     </ClCompile>
-    <ClCompile Include="ddmenu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_inheritors\abstract\ddmenu_widget</Filter>
-    </ClCompile>
     <ClCompile Include="button_widget_set_text.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ddmenu_option_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\ddmenu_option_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ddmenu_option_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\ddmenu_option_widget</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -335,29 +296,17 @@
     <ClInclude Include="slider_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
-    <ClInclude Include="menu_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_credits_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_main_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
-    <ClInclude Include="mm_settings_page.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\main_menu</Filter>
-    </ClInclude>
     <ClInclude Include="progress_bar_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="checkbox_widget.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ddmenu_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_option_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors</Filter>
-    </ClInclude>
-    <ClInclude Include="ddmenu_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
