@@ -8,6 +8,8 @@ class CheckboxWidget : public Widget {
 	sf::RectangleShape* box;
 public:
 	bool getValue() { return value; }
+	void setValue(bool val) { value = val; on_change();}
+	virtual void on_change() {}
 	virtual void on_click(point mouse);
 	void draw(point shift);
 	CheckboxWidget();
