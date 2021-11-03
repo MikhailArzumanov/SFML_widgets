@@ -297,6 +297,9 @@
     <ClCompile Include="button_widget_set_text.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\button_widget</Filter>
     </ClCompile>
+    <ClCompile Include="checkbox_get_set_value.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
