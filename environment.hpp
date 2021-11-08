@@ -12,6 +12,7 @@ enum SpriteNames {
 
 extern sf::Clock the_clock;
 extern std::vector<Widget*> widgets;
+extern Widget* last_clicked_widget;
 
 extern std::string* fonts_paths;
 extern sf::Font* fonts;
