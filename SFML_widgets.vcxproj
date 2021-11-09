@@ -190,6 +190,10 @@
     <ClCompile Include="slider_widget_draw.cpp" />
     <ClCompile Include="slider_widget_on_click.cpp" />
     <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="text_input_widget_constructors.cpp" />
+    <ClCompile Include="text_input_widget_draw.cpp" />
+    <ClCompile Include="text_input_widget_keypressed.cpp" />
+    <ClCompile Include="text_input_widget_set_value.cpp" />
     <ClCompile Include="text_widget_constructors.cpp" />
     <ClCompile Include="text_widget_draw.cpp" />
     <ClCompile Include="text_widget_get_textrect.cpp" />
@@ -223,6 +227,7 @@
     <ClInclude Include="progress_bar_widget.hpp" />
     <ClInclude Include="rect_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
+    <ClInclude Include="text_input_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />
