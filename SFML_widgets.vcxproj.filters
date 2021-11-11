@@ -97,6 +97,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\text_input_widget">
       <UniqueIdentifier>{84eb0420-5098-4c0f-9ad6-ecf7c6e7e64c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget">
+      <UniqueIdentifier>{6a8feaae-4bd0-4601-9617-ea69b42f8ce4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -279,6 +282,15 @@
     <ClCompile Include="text_input_widget_draw.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\text_input_widget</Filter>
     </ClCompile>
+    <ClCompile Include="vertical_slider_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -330,6 +342,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_input_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="vertical_slider_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>
