@@ -100,6 +100,9 @@
     <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget">
       <UniqueIdentifier>{6a8feaae-4bd0-4601-9617-ea69b42f8ce4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_inheritors\abstract\scrollbox_widget">
+      <UniqueIdentifier>{0ab61769-cf37-4762-995a-4a791c045d33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -291,6 +294,18 @@
     <ClCompile Include="vertical_slider_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\vertical_slider_widget</Filter>
     </ClCompile>
+    <ClCompile Include="scrollbox_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\scrollbox_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_draw.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\scrollbox_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_process_click.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\scrollbox_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_events.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\abstract\scrollbox_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -345,6 +360,9 @@
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
     <ClInclude Include="vertical_slider_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="scrollbox_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
     </ClInclude>
   </ItemGroup>

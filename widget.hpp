@@ -12,7 +12,7 @@ protected:
     Widget(){}
 public:
     void set_visibility(bool visibility);
-    void process_click(point mouse_shift, Widget*& result_pointer);
+    virtual void process_click(point mouse_shift, Widget*& result_pointer);
     virtual void keypressed(sf::Event key_event){};
     virtual void tick();
     virtual void draw(point shift);
