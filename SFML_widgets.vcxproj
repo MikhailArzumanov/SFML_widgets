@@ -185,6 +185,10 @@
     <ClCompile Include="progress_bar_widget_set_ratio.cpp" />
     <ClCompile Include="rect_widget_constructors.cpp" />
     <ClCompile Include="rect_widget_draw.cpp" />
+    <ClCompile Include="scrollbox_widget_constructors.cpp" />
+    <ClCompile Include="scrollbox_widget_draw.cpp" />
+    <ClCompile Include="scrollbox_widget_events.cpp" />
+    <ClCompile Include="scrollbox_widget_process_click.cpp" />
     <ClCompile Include="SFML_widgets.cpp" />
     <ClCompile Include="slider_widget_constructors.cpp" />
     <ClCompile Include="slider_widget_draw.cpp" />
@@ -200,6 +204,9 @@
     <ClCompile Include="text_widget_set_content.cpp" />
     <ClCompile Include="text_widget_set_p.cpp" />
     <ClCompile Include="tick.cpp" />
+    <ClCompile Include="vertical_slider_widget_constructors.cpp" />
+    <ClCompile Include="vertical_slider_widget_draw.cpp" />
+    <ClCompile Include="vertical_slider_widget_on_click.cpp" />
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widgets_process_click.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
@@ -226,9 +233,11 @@
     <ClInclude Include="point.hpp" />
     <ClInclude Include="progress_bar_widget.hpp" />
     <ClInclude Include="rect_widget.hpp" />
+    <ClInclude Include="scrollbox_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
     <ClInclude Include="text_input_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
+    <ClInclude Include="vertical_slider_widget.hpp" />
     <ClInclude Include="widget.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>
