@@ -11,3 +11,5 @@ public:
 	void on_click(point mouse) {}
 	MM_SettingsPage(Widget* parent_);
 };
+
+void fs_chckbx_event(Widget* parent, bool new_val);

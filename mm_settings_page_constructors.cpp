@@ -9,7 +9,7 @@ MM_SettingsPage::MM_SettingsPage(Widget* parent_) {
 	parent = parent_;
 	main_menu_btn = new ButtonWidget(fonts[0], 12, sf::Color::Cyan, "main menu", menu_event_stom, parent, 
 										sf::Color::White, {230,120}, { 38,23 });
-	checkbox = new CheckboxWidget({ 83,83 }, { 400,400 });
+	checkbox = new CheckboxWidget(this, fs_chckbx_event,{ 83,83 }, { 400,400 });
 
 	children.push_back(checkbox);
 	children.push_back(main_menu_btn);

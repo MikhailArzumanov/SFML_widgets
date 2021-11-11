@@ -300,6 +300,42 @@
     <ClCompile Include="checkbox_get_set_value.cpp">
       <Filter>Исходные файлы\widget\widget_inheritors\abstract\checkbox_widget</Filter>
     </ClCompile>
+    <ClCompile Include="scrollbox_widget_constructors.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_events.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbox_widget_process_click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="text_input_widget_constructors.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="text_input_widget_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="text_input_widget_keypressed.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="text_input_widget_set_value.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_constructors.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="vertical_slider_widget_on_click.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mm_settings_page_events.cpp">
+      <Filter>Исходные файлы\widget\widget_inheritors\main_menu\settings_page</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -361,6 +397,15 @@
     </ClInclude>
     <ClInclude Include="ddmenu_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_inheritors\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="scrollbox_widget.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="text_input_widget.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="vertical_slider_widget.hpp">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

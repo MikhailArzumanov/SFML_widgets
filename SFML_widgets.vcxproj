@@ -179,6 +179,7 @@
     <ClCompile Include="mm_main_page_constructors.cpp" />
     <ClCompile Include="mm_main_page_events.cpp" />
     <ClCompile Include="mm_settings_page_constructors.cpp" />
+    <ClCompile Include="mm_settings_page_events.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="progress_bar_widget_constructors.cpp" />
     <ClCompile Include="progress_bar_widget_draw.cpp" />
