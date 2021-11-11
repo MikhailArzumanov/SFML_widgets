@@ -14,8 +14,8 @@ void init_lines(sf::Vertex*& left, sf::Vertex*& right, point dims, point p) {
 		right[i].color = sf::Color::Black;
 	}
 }
-CheckboxWidget::CheckboxWidget(point dims_, point p_) {
-	dims = dims_; p = p_;
+CheckboxWidget::CheckboxWidget(Widget* parent_, void (*onchange_)(Widget*, bool), point dims_, point p_) {
+	dims = dims_; p = p_; parent = parent; onchange = onchange_;
 	init_lines(left_line, right_line, dims, p);
 	box = new sf::RectangleShape({ dims.x,dims.y });
 }
