@@ -2,5 +2,5 @@
 #include "window.hpp"
 
 void AnimatedClose::on_click(point mouse) {
-	window.close();
+	window->close();
 }

@@ -10,7 +10,7 @@ void draw_widgets() {
         widget->draw(point{ 0,0 });
 }
 void draw_window() {
-    window.clear();
+    window->clear();
     draw_widgets();
-    window.display();
+    window->display();
 }

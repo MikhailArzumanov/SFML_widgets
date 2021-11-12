@@ -9,10 +9,10 @@ Widget* last_clicked_widget;
 
 void handle_events() {
     sf::Event event;
-    while (window.pollEvent(event)) {
+    while (window->pollEvent(event)) {
         switch (event.type) {
         case sf::Event::Closed:
-            window.close();
+            window->close();
             break;
         case sf::Event::MouseButtonPressed:
             widgets_process_click(event);

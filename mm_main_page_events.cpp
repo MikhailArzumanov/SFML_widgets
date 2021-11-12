@@ -2,5 +2,5 @@
 #include "window.hpp"
 
 void event_mm_leave(Widget* widget) {
-	window.close();
+	window->close();
 }
