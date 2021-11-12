@@ -215,6 +215,7 @@
     <ClCompile Include="widgets.cpp" />
     <ClCompile Include="widgets_process_click.cpp" />
     <ClCompile Include="widget_add_child.cpp" />
+    <ClCompile Include="widget_destructor.cpp" />
     <ClCompile Include="widget_draw.cpp" />
     <ClCompile Include="widget_process_click.cpp" />
     <ClCompile Include="widget_set_visibility.cpp" />

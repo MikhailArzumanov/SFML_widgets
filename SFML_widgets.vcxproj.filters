@@ -369,6 +369,9 @@
     <ClCompile Include="vertical_slider_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget</Filter>
     </ClCompile>
+    <ClCompile Include="widget_destructor.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">

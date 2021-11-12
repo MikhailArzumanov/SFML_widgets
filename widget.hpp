@@ -11,6 +11,7 @@ protected:
     bool isVisible = true;
     Widget(){}
 public:
+    ~Widget();
     void set_visibility(bool visibility);
     virtual void process_click(point mouse_shift, Widget*& result_pointer);
     virtual void keypressed(sf::Event key_event){};
