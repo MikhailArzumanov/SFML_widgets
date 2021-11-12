@@ -226,9 +226,10 @@
     <ClInclude Include="animated_widget.hpp" />
     <ClInclude Include="button_widget.hpp" />
     <ClInclude Include="checkbox_widget.hpp" />
+    <ClInclude Include="clock.hpp" />
     <ClInclude Include="ddmenu_option_widget.hpp" />
     <ClInclude Include="ddmenu_widget.hpp" />
-    <ClInclude Include="environment.hpp" />
+    <ClInclude Include="fonts.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="menu_widget.hpp" />
@@ -242,10 +243,12 @@
     <ClInclude Include="rect_widget.hpp" />
     <ClInclude Include="scrollbox_widget.hpp" />
     <ClInclude Include="slider_widget.hpp" />
+    <ClInclude Include="sprites.hpp" />
     <ClInclude Include="text_input_widget.hpp" />
     <ClInclude Include="text_widget.hpp" />
     <ClInclude Include="vertical_slider_widget.hpp" />
     <ClInclude Include="widget.hpp" />
+    <ClInclude Include="widgets.hpp" />
     <ClInclude Include="window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

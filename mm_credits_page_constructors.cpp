@@ -1,6 +1,6 @@
 #include "mm_credits_page.hpp"
 #include "menu_widget.hpp"
-#include "environment.hpp"
+#include "fonts.hpp"
 
 MM_CreditsPage::MM_CreditsPage(Widget* parent_) {
 	p = { 0,0 };

@@ -1,5 +1,4 @@
 #include "animated_widget.hpp"
-#include <iostream>
 
 void AnimatedWidget::tick() {
 	if (framecounter >= framerate) {

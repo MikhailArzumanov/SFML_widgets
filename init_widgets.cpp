@@ -4,8 +4,8 @@
 #include "image_widget.hpp"
 #include "rect_widget.hpp"
 #include "text_widget.hpp"
-#include "environment.hpp"
 #include "menu_widget.hpp"
+#include "widgets.hpp"
 #include "widget.hpp"
 
 #include <iostream>

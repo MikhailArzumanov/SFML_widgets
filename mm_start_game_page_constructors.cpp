@@ -1,6 +1,6 @@
 #include "mm_start_game_page.hpp"
 #include "menu_widget.hpp"
-#include "environment.hpp"
+#include "fonts.hpp"
 
 MM_StartGamePage::MM_StartGamePage(Widget* parent_) {
 	p = { 0,0 };

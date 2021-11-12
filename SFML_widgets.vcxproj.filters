@@ -40,97 +40,97 @@
     <Filter Include="Файлы заголовков\environment\structs">
       <UniqueIdentifier>{97da18b6-70dd-482e-b42a-aaf03f525ceb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widgets">
+    <Filter Include="Файлы заголовков\widget">
       <UniqueIdentifier>{3015f04e-6989-4c26-a37a-0143414c83ad}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widgets\widget_derivatives">
+    <Filter Include="Файлы заголовков\widget\widget_derivatives">
       <UniqueIdentifier>{834bfbb2-0e8d-4941-ac08-ec4d30d4a837}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widgets\widget_derivatives\abstract">
+    <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract">
       <UniqueIdentifier>{97fc575a-7ac4-4cee-bbf7-ab8e82657e24}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widgets\Examples">
+    <Filter Include="Файлы заголовков\widget\Examples">
       <UniqueIdentifier>{3fa837cf-383c-49ed-b8cd-fecbd196ca2b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widgets\Examples\main_menu">
+    <Filter Include="Файлы заголовков\widget\Examples\main_menu">
       <UniqueIdentifier>{dc372cb3-f664-4af8-810e-3ed8292346cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets">
+    <Filter Include="Исходные файлы\widget">
       <UniqueIdentifier>{136ae72c-fd75-4e36-b047-63bcfa2f0a72}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives">
+    <Filter Include="Исходные файлы\widget\widget_derivatives">
       <UniqueIdentifier>{46e19ff7-0c6a-4a61-848d-7ab56dd74383}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract">
       <UniqueIdentifier>{2aa9b532-e57e-4d6c-a39a-cd9259c0d3ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\image_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\image_widget">
       <UniqueIdentifier>{6a3823c5-f42c-4c05-9e3e-c3e38846aeb3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\animated_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\animated_widget">
       <UniqueIdentifier>{0779b05c-f7d7-43ca-b81c-ebbdc922f509}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\rect_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\rect_widget">
       <UniqueIdentifier>{4b182746-063c-4672-a8c3-6ed6cb8ba417}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\text_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\text_widget">
       <UniqueIdentifier>{a8235d25-6118-4ede-8cbe-a90eef933efb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\button_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\button_widget">
       <UniqueIdentifier>{21864414-6e04-40c9-a793-8412d505aceb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\slider_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\slider_widget">
       <UniqueIdentifier>{35e564fd-259c-4aac-99cb-85fcb6dfe3cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\progress_bar_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\progress_bar_widget">
       <UniqueIdentifier>{7a623b53-9493-47db-9863-6f13f141f29c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\checkbox_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget">
       <UniqueIdentifier>{7bc78922-f689-4173-8d8c-1e366b93f0d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\ddmenu_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget">
       <UniqueIdentifier>{a97a787a-bd5d-4bc6-ac78-2bf6c600f0a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\scrollbox_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget">
       <UniqueIdentifier>{2ee4328b-aac0-4003-8a0f-141a5f826e7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\text_input_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\text_input_widget">
       <UniqueIdentifier>{718c553b-67ba-4ed6-b0b0-35939811726a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\abstract\vertical_slider_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget">
       <UniqueIdentifier>{418d90f1-dfb4-4d7f-abdb-db305041a67b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\animated_close">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\animated_close">
       <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\widget_derivatives\ddmenu_option_widget">
+    <Filter Include="Исходные файлы\widget\widget_derivatives\ddmenu_option_widget">
       <UniqueIdentifier>{078a9812-a828-400b-96bc-f09739c28cc1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\self">
+    <Filter Include="Исходные файлы\widget\self">
       <UniqueIdentifier>{9b5cfe54-8f05-44f3-b31c-db7fc7827776}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples">
+    <Filter Include="Исходные файлы\widget\examples">
       <UniqueIdentifier>{b4d6fe07-4d35-440b-a7ff-a459170b48ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu">
+    <Filter Include="Исходные файлы\widget\examples\main_menu">
       <UniqueIdentifier>{7ec7ea65-882e-44da-a4e4-b47cca928190}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\self">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\self">
       <UniqueIdentifier>{95dfad00-c1df-48cd-8840-4105e504f8ca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\credits_page">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\credits_page">
       <UniqueIdentifier>{0a4ab0fe-83bb-45a8-9cb7-65cae4eee1aa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\main_page">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\main_page">
       <UniqueIdentifier>{dcdfe3f1-117d-4e55-9dbd-71b51d157ca3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\settings_page">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\settings_page">
       <UniqueIdentifier>{76465b99-a5a0-4094-9cd8-a5954fa6b65b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\start_game_page">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\start_game_page">
       <UniqueIdentifier>{a143431f-2c95-4b1b-a598-e6018c9cccfa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widgets\examples\main_menu\game_page">
+    <Filter Include="Исходные файлы\widget\examples\main_menu\game_page">
       <UniqueIdentifier>{4bd701e2-4d89-4954-a7c2-00a0592091d2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -145,10 +145,10 @@
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\image_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\image_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="draw.cpp">
       <Filter>Исходные файлы\main_program\draw</Filter>
@@ -178,40 +178,40 @@
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
     <ClCompile Include="widget_add_child.cpp">
-      <Filter>Исходные файлы\widgets\self</Filter>
+      <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\self</Filter>
+      <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_set_visibility.cpp">
-      <Filter>Исходные файлы\widgets\self</Filter>
+      <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="widget_process_click.cpp">
-      <Filter>Исходные файлы\widgets\self</Filter>
+      <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\animated_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\animated_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_widget_tick.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\animated_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_close_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\animated_close</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\animated_close</Filter>
     </ClCompile>
     <ClCompile Include="animated_close_onclick.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\animated_close</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\animated_close</Filter>
     </ClCompile>
     <ClCompile Include="clock.cpp">
       <Filter>Исходные файлы\environment</Filter>
     </ClCompile>
     <ClCompile Include="widget_tick.cpp">
-      <Filter>Исходные файлы\widgets\self</Filter>
+      <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="image_widget_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\image_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\image_widget</Filter>
     </ClCompile>
     <ClCompile Include="tick.cpp">
       <Filter>Исходные файлы\main_program\cycle</Filter>
@@ -220,19 +220,19 @@
       <Filter>Исходные файлы\main_program\handle_events</Filter>
     </ClCompile>
     <ClCompile Include="rect_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\rect_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\rect_widget</Filter>
     </ClCompile>
     <ClCompile Include="rect_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\rect_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\rect_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_set_content.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="fonts.cpp">
       <Filter>Исходные файлы\environment</Filter>
@@ -241,133 +241,133 @@
       <Filter>Исходные файлы\main_program\init</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\button_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_set_p.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_widget_get_textrect.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_widget</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\button_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="slider_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="main_menu_events.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\self</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\self</Filter>
     </ClCompile>
     <ClCompile Include="mm_credits_page_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\credits_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\credits_page</Filter>
     </ClCompile>
     <ClCompile Include="mm_main_page_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\main_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\main_page</Filter>
     </ClCompile>
     <ClCompile Include="mm_main_page_events.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\main_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\main_page</Filter>
     </ClCompile>
     <ClCompile Include="menu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\self</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\self</Filter>
     </ClCompile>
     <ClCompile Include="mm_settings_page_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\settings_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\settings_page</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\progress_bar_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\progress_bar_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="progress_bar_widget_set_ratio.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\progress_bar_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\progress_bar_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkox_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\ddmenu_option_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\ddmenu_option_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\ddmenu_option_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\ddmenu_option_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_events.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\ddmenu_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_show_hide.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\ddmenu_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_widget_choose.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\ddmenu_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\ddmenu_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
     </ClCompile>
     <ClCompile Include="button_widget_set_text.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\button_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\button_widget</Filter>
     </ClCompile>
     <ClCompile Include="checkbox_get_set_value.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\checkbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="mm_settings_page_events.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\settings_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\settings_page</Filter>
     </ClCompile>
     <ClCompile Include="mm_start_game_page_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\start_game_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\start_game_page</Filter>
     </ClCompile>
     <ClCompile Include="mm_start_game_page_events.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\start_game_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\start_game_page</Filter>
     </ClCompile>
     <ClCompile Include="game_page_constructors.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\game_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\game_page</Filter>
     </ClCompile>
     <ClCompile Include="mm_start_game_page_set_name.cpp">
-      <Filter>Исходные файлы\widgets\examples\main_menu\start_game_page</Filter>
+      <Filter>Исходные файлы\widget\examples\main_menu\start_game_page</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\scrollbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\scrollbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_events.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\scrollbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="scrollbox_widget_process_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\scrollbox_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_input_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_input_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_keypressed.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_input_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="text_input_widget_set_value.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\text_input_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\text_input_widget</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_constructors.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\vertical_slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_draw.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\vertical_slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget</Filter>
     </ClCompile>
     <ClCompile Include="vertical_slider_widget_on_click.cpp">
-      <Filter>Исходные файлы\widgets\widget_derivatives\abstract\vertical_slider_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -375,13 +375,10 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="widget.hpp">
-      <Filter>Файлы заголовков\widgets</Filter>
+      <Filter>Файлы заголовков\widget</Filter>
     </ClInclude>
     <ClInclude Include="image_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
-    </ClInclude>
-    <ClInclude Include="environment.hpp">
-      <Filter>Файлы заголовков\environment</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="window.hpp">
       <Filter>Файлы заголовков\environment</Filter>
@@ -390,61 +387,73 @@
       <Filter>Файлы заголовков\environment\structs</Filter>
     </ClInclude>
     <ClInclude Include="animated_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="animated_close.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives</Filter>
     </ClInclude>
     <ClInclude Include="rect_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="button_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="slider_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="menu_widget.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="mm_credits_page.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="mm_main_page.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="mm_settings_page.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="progress_bar_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="checkbox_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_option_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="mm_start_game_page.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="mm_game_page.hpp">
-      <Filter>Файлы заголовков\widgets\Examples\main_menu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="scrollbox_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_input_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="vertical_slider_widget.hpp">
-      <Filter>Файлы заголовков\widgets\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets.hpp">
+      <Filter>Файлы заголовков\environment</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

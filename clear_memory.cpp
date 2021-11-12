@@ -1,5 +1,7 @@
 #include "main_programm.hpp"
-#include "environment.hpp"
+#include "sprites.hpp"
+#include "fonts.hpp"
+#include "widgets.hpp"
 
 #define let auto
 #define of :

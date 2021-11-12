@@ -1,5 +1,5 @@
 #include "animated_close.hpp"
-#include "environment.hpp"
+#include "sprites.hpp"
 
 const int CLOSE_FRAMERATE = 23;
 

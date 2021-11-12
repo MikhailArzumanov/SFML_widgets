@@ -1,4 +1,4 @@
-#include "environment.hpp"
+#include "sprites.hpp"
 
 const int sprites_amount = 2;
 
