@@ -15,7 +15,6 @@ void test_event(Widget* null) {
 }
 
 void init_widgets() {
-    widgets.push_back(new ImageWidget(sprites[0], point{400, 0}));
     widgets.push_back(new AnimatedClose(point{1216, 0}));
     widgets.push_back(new MenuWidget());
 }
