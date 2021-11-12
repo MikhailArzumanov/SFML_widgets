@@ -4,6 +4,7 @@
 
 class MM_MainPage : public Widget {
 	Widget*   parent;
+	ButtonWidget* start_game_btn;
 	ButtonWidget* settings_btn;
 	ButtonWidget* credits_btn;
 	ButtonWidget* exit_button;

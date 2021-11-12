@@ -7,6 +7,9 @@ MM_MainPage::MM_MainPage(Widget* parent_){
 	dims = { 1080,720 };
 
 	parent = parent_;
+	start_game_btn = new ButtonWidget(fonts[0], 12, sf::Color::Cyan, "start game", menu_event_mtog, parent,
+		sf::Color::White, { 230, 93 }, { 425, 125 });
+	children.push_back(start_game_btn);
 	settings_btn = new ButtonWidget(fonts[0], 12, sf::Color::Cyan, "settings",menu_event_mtos,parent, 
 									sf::Color::White, {230, 93}, {425, 225});
 	children.push_back(settings_btn);
