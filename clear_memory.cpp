@@ -1,7 +1,8 @@
 #include "main_programm.hpp"
-#include "sprites.hpp"
-#include "fonts.hpp"
 #include "widgets.hpp"
+#include "sprites.hpp"
+#include "window.hpp"
+#include "fonts.hpp"
 
 #define let auto
 #define of :
@@ -24,4 +25,5 @@ void clear_memory() {
     clear_widgets();
     clear_sprites();
     clear_fonts();
+    delete window;
 }
