@@ -9,7 +9,8 @@ protected:
     point dims;
     std::vector<Widget*> children;
     bool isVisible = true;
-    Widget(){}
+    Widget();
+    Widget(point dims_, point p_);
 public:
     ~Widget();
     void set_visibility(bool visibility);
