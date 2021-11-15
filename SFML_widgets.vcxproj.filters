@@ -381,6 +381,12 @@
     <ClCompile Include="image_button_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
     </ClCompile>
+    <ClCompile Include="test_dd_menu_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="test_ddmenu_widget_on_change.cpp">
+      <Filter>Исходные файлы\widget\examples</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -469,6 +475,9 @@
     </ClInclude>
     <ClInclude Include="image_button_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="test_ddmenu_widget.hpp">
+      <Filter>Файлы заголовков\widget\Examples</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
