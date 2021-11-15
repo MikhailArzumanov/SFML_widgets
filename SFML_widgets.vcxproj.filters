@@ -381,6 +381,9 @@
     <ClCompile Include="image_button_widget_on_click.cpp">
       <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
     </ClCompile>
+    <ClCompile Include="widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\self</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
