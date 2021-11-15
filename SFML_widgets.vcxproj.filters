@@ -133,6 +133,9 @@
     <Filter Include="Исходные файлы\widget\examples\main_menu\game_page">
       <UniqueIdentifier>{4bd701e2-4d89-4954-a7c2-00a0592091d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\widget\widget_derivatives\image_button_widget">
+      <UniqueIdentifier>{a304fb10-946b-45f9-9a2b-c91b574e2261}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -372,6 +375,12 @@
     <ClCompile Include="widget_destructor.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
+    <ClCompile Include="image_button_widget_constructors.cpp">
+      <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="image_button_widget_on_click.cpp">
+      <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -457,6 +466,9 @@
     </ClInclude>
     <ClInclude Include="widgets.hpp">
       <Filter>Файлы заголовков\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="image_button_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
