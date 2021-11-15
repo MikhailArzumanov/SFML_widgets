@@ -131,6 +131,7 @@
       <PreprocessorDefinitions>SFML_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -167,6 +168,8 @@
     <ClCompile Include="fonts.cpp" />
     <ClCompile Include="game_page_constructors.cpp" />
     <ClCompile Include="handle_events.cpp" />
+    <ClCompile Include="image_button_widget_constructors.cpp" />
+    <ClCompile Include="image_button_widget_on_click.cpp" />
     <ClCompile Include="image_widget_constructors.cpp" />
     <ClCompile Include="image_widget_draw.cpp" />
     <ClCompile Include="image_widget_on_click.cpp" />
@@ -231,6 +234,7 @@
     <ClInclude Include="ddmenu_option_widget.hpp" />
     <ClInclude Include="ddmenu_widget.hpp" />
     <ClInclude Include="fonts.hpp" />
+    <ClInclude Include="image_button_widget.hpp" />
     <ClInclude Include="image_widget.hpp" />
     <ClInclude Include="main_programm.hpp" />
     <ClInclude Include="menu_widget.hpp" />
