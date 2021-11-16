@@ -20,7 +20,7 @@ MM_SettingsPage::MM_SettingsPage(Widget* parent_) {
 	volume_bar = new ProgressBarWidget(sf::Color::White, sf::Color::Green, {12,10}, { 230,120 }, { 653,230 });
 	volume_bar->set_ratio(0.5f);
 
-	scrollbox = new ScrollboxWidget(1000, { 40,500 }, { 1200,720 }, { 0,0 });
+	scrollbox = new ScrollboxWidget(1000, { 40,500 }, { 1200,720 }, { 0,120 });
 
 	children.push_back(scrollbox);
 

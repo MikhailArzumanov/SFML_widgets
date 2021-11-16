@@ -13,6 +13,7 @@ protected:
     Widget(point dims_, point p_);
 public:
     ~Widget();
+    point get_p() { return p; }
     void set_visibility(bool visibility);
     virtual void process_click(point mouse_shift, Widget*& result_pointer);
     virtual void keypressed(sf::Event key_event){};
