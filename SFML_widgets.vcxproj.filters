@@ -124,9 +124,6 @@
     <Filter Include="Исходные файлы\widget\examples\main_menu\game_page">
       <UniqueIdentifier>{4bd701e2-4d89-4954-a7c2-00a0592091d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_derivatives\image_button_widget">
-      <UniqueIdentifier>{a304fb10-946b-45f9-9a2b-c91b574e2261}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract\ddmenu">
       <UniqueIdentifier>{6d71d25d-e3d6-4c32-95de-f7b46fc72a1f}</UniqueIdentifier>
     </Filter>
@@ -138,6 +135,9 @@
     </Filter>
     <Filter Include="Исходные файлы\widget\examples\animated_close">
       <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\image_button_widget">
+      <UniqueIdentifier>{a304fb10-946b-45f9-9a2b-c91b574e2261}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -379,10 +379,10 @@
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
     <ClCompile Include="image_button_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\image_button_widget</Filter>
     </ClCompile>
     <ClCompile Include="image_button_widget_on_click.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\image_button_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\image_button_widget</Filter>
     </ClCompile>
     <ClCompile Include="widget_constructors.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
