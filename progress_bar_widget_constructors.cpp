@@ -7,5 +7,6 @@ ProgressBarWidget::ProgressBarWidget(sf::Color bground_color, sf::Color bar_colo
 	bground->setFillColor(bground_color);
 	point bar_size = dims-paddings*2;
 	the_bar = new sf::RectangleShape(sf::Vector2f(bar_size.x,bar_size.y));
+	the_bar->setFillColor(bar_color);
 	ratio = 1.0f;
 }

@@ -88,9 +88,6 @@
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget">
       <UniqueIdentifier>{7bc78922-f689-4173-8d8c-1e366b93f0d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget">
-      <UniqueIdentifier>{a97a787a-bd5d-4bc6-ac78-2bf6c600f0a1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\scrollbox_widget">
       <UniqueIdentifier>{2ee4328b-aac0-4003-8a0f-141a5f826e7d}</UniqueIdentifier>
     </Filter>
@@ -102,9 +99,6 @@
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_derivatives\animated_close">
       <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\widget\widget_derivatives\ddmenu_option_widget">
-      <UniqueIdentifier>{078a9812-a828-400b-96bc-f09739c28cc1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\widget\self">
       <UniqueIdentifier>{9b5cfe54-8f05-44f3-b31c-db7fc7827776}</UniqueIdentifier>
@@ -138,6 +132,12 @@
     </Filter>
     <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract\ddmenu">
       <UniqueIdentifier>{6d71d25d-e3d6-4c32-95de-f7b46fc72a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget">
+      <UniqueIdentifier>{a97a787a-bd5d-4bc6-ac78-2bf6c600f0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget\ddmenu_option_widget">
+      <UniqueIdentifier>{078a9812-a828-400b-96bc-f09739c28cc1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -304,10 +304,10 @@
       <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_on_click.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\ddmenu_option_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget\ddmenu_option_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_option_widget_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\ddmenu_option_widget</Filter>
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget\ddmenu_option_widget</Filter>
     </ClCompile>
     <ClCompile Include="ddmenu_events.cpp">
       <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>

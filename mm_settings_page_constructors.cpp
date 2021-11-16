@@ -16,7 +16,17 @@ MM_SettingsPage::MM_SettingsPage(Widget* parent_) {
 	difficulty = new DDMenuWidget(3, vals, "choose the difficulty", fonts[0], 12, sf::Color::Cyan, sf::Color::White, 
 									this, dffclty_event, 23, { 230,38 }, { 400,500 });
 
-	children.push_back(difficulty);
-	children.push_back(checkbox);
+	volume_slider = new SliderWidget(this, volume_event, { 230,120 }, { 400,230 });
+	volume_bar = new ProgressBarWidget(sf::Color::White, sf::Color::Green, {12,10}, { 230,120 }, { 653,230 });
+	volume_bar->set_ratio(0.5f);
+
+	scrollbox = new ScrollboxWidget(1000, { 40,500 }, { 1200,720 }, { 0,0 });
+
+	children.push_back(scrollbox);
+
+	scrollbox->add_child(volume_slider);
+	scrollbox->add_child(volume_bar);
+	scrollbox->add_child(difficulty);
+	scrollbox->add_child(checkbox);
 	children.push_back(main_menu_btn);
 }
