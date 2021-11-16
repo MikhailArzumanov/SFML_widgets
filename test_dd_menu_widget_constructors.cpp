@@ -15,12 +15,12 @@ TestDDMenuWidget::TestDDMenuWidget(sf::Font& font_, point p_) {
 		sf::Color::White, dims, { 0, 0 });
 	children.push_back(expand_button);
 
-	options = new DDMenuOptionWidget[vals_amount];
+	options = new DDMenuOptionWidget*[vals_amount];
 	for (int i = 0; i < vals_amount; i++) {
-		options[i] = DDMenuOptionWidget(font_, 12, sf::Color::Cyan, sf::Color::White, i, vals[i], this,
+		options[i] = new DDMenuOptionWidget(font_, 12, sf::Color::Cyan, sf::Color::White, i, vals[i], this,
 			point{ dims.x, (float)tile_height }, point{ 0.f, dims.y + tile_height * i });
-		options[i].set_visibility(false);
-		children.push_back(&options[i]);
+		options[i]->set_visibility(false);
+		children.push_back(options[i]);
 	}
 
 }

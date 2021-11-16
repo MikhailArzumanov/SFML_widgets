@@ -13,7 +13,7 @@ protected:
 	sf::Font* font;
 	bool is_collapsed;
 	ButtonWidget* expand_button;
-	DDMenuOptionWidget* options;
+	DDMenuOptionWidget** options;
 
 public:
 	DDMenuWidget();
