@@ -97,9 +97,6 @@
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\vertical_slider_widget">
       <UniqueIdentifier>{418d90f1-dfb4-4d7f-abdb-db305041a67b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\widget\widget_derivatives\animated_close">
-      <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\self">
       <UniqueIdentifier>{9b5cfe54-8f05-44f3-b31c-db7fc7827776}</UniqueIdentifier>
     </Filter>
@@ -138,6 +135,9 @@
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget\ddmenu_option_widget">
       <UniqueIdentifier>{078a9812-a828-400b-96bc-f09739c28cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\widget\examples\animated_close">
+      <UniqueIdentifier>{e85e68f7-7287-4633-90a0-53e30c670032}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -205,10 +205,10 @@
       <Filter>Исходные файлы\widget\widget_derivatives\abstract\animated_widget</Filter>
     </ClCompile>
     <ClCompile Include="animated_close_constructors.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\animated_close</Filter>
+      <Filter>Исходные файлы\widget\examples\animated_close</Filter>
     </ClCompile>
     <ClCompile Include="animated_close_onclick.cpp">
-      <Filter>Исходные файлы\widget\widget_derivatives\animated_close</Filter>
+      <Filter>Исходные файлы\widget\examples\animated_close</Filter>
     </ClCompile>
     <ClCompile Include="clock.cpp">
       <Filter>Исходные файлы\environment</Filter>
@@ -389,6 +389,9 @@
     </ClCompile>
     <ClCompile Include="ddmenu_widget_on_change.cpp">
       <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox_widget_init_lines.cpp">
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\checkbox_widget</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

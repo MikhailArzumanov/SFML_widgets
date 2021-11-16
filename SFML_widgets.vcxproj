@@ -154,6 +154,7 @@
     <ClCompile Include="checkbox_draw.cpp" />
     <ClCompile Include="checkbox_get_set_value.cpp" />
     <ClCompile Include="checkbox_on_click.cpp" />
+    <ClCompile Include="checkbox_widget_init_lines.cpp" />
     <ClCompile Include="checkox_widget_constructors.cpp" />
     <ClCompile Include="clear_memory.cpp" />
     <ClCompile Include="clock.cpp" />
