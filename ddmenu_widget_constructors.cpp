@@ -3,8 +3,10 @@
 DDMenuWidget::DDMenuWidget(){}
 DDMenuWidget::DDMenuWidget(int vals_amount_, std::string* vals_, std::string plchldr_,
 	sf::Font& font_, int font_size_, sf::Color color, sf::Color bgrnd_color,
+	Widget* parent_, void (*onchange_)(Widget*, std::string),
 	int tile_height_, point dims_, point p_) {
 	is_collapsed = true;
+	parent = parent_; onchange = onchange_;
 
 	dims = dims_; p = p_; tile_height = tile_height_; font = &font_;
 	vals = vals_; vals_amount = vals_amount_; plchldr = plchldr_;

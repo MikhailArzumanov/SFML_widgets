@@ -136,6 +136,9 @@
     <Filter Include="Исходные файлы\widget\widget_derivatives\image_button_widget">
       <UniqueIdentifier>{a304fb10-946b-45f9-9a2b-c91b574e2261}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract\ddmenu">
+      <UniqueIdentifier>{6d71d25d-e3d6-4c32-95de-f7b46fc72a1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_widgets.cpp">
@@ -384,6 +387,9 @@
     <ClCompile Include="widget_constructors.cpp">
       <Filter>Исходные файлы\widget\self</Filter>
     </ClCompile>
+    <ClCompile Include="ddmenu_widget_on_change.cpp">
+      <Filter>Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_programm.hpp">
@@ -403,9 +409,6 @@
     </ClInclude>
     <ClInclude Include="animated_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
-    </ClInclude>
-    <ClInclude Include="animated_close.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives</Filter>
     </ClInclude>
     <ClInclude Include="rect_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
@@ -437,12 +440,6 @@
     <ClInclude Include="checkbox_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
     </ClInclude>
-    <ClInclude Include="ddmenu_option_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives</Filter>
-    </ClInclude>
-    <ClInclude Include="ddmenu_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
-    </ClInclude>
     <ClInclude Include="mm_start_game_page.hpp">
       <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
@@ -472,6 +469,15 @@
     </ClInclude>
     <ClInclude Include="image_button_widget.hpp">
       <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="ddmenu_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract\ddmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ddmenu_option_widget.hpp">
+      <Filter>Файлы заголовков\widget\widget_derivatives\abstract\ddmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="animated_close.hpp">
+      <Filter>Файлы заголовков\widget\Examples</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

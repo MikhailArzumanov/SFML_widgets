@@ -11,6 +11,12 @@ MM_SettingsPage::MM_SettingsPage(Widget* parent_) {
 										sf::Color::White, {230,120}, { 38,23 });
 	checkbox = new CheckboxWidget(this, fs_chckbx_event,{ 83,83 }, { 400,400 });
 
+	std::string* vals = new std::string[3]{ "easy","normal","hard" };
+
+	difficulty = new DDMenuWidget(3, vals, "choose the difficulty", fonts[0], 12, sf::Color::Cyan, sf::Color::White, 
+									this, dffclty_event, 23, { 230,38 }, { 400,500 });
+
+	children.push_back(difficulty);
 	children.push_back(checkbox);
 	children.push_back(main_menu_btn);
 }

@@ -164,6 +164,7 @@
     <ClCompile Include="ddmenu_show_hide.cpp" />
     <ClCompile Include="ddmenu_widget_choose.cpp" />
     <ClCompile Include="ddmenu_widget_constructors.cpp" />
+    <ClCompile Include="ddmenu_widget_on_change.cpp" />
     <ClCompile Include="draw.cpp" />
     <ClCompile Include="fonts.cpp" />
     <ClCompile Include="game_page_constructors.cpp" />
@@ -202,8 +203,6 @@
     <ClCompile Include="slider_widget_draw.cpp" />
     <ClCompile Include="slider_widget_on_click.cpp" />
     <ClCompile Include="sprites.cpp" />
-    <ClCompile Include="test_ddmenu_widget_on_change.cpp" />
-    <ClCompile Include="test_dd_menu_widget_constructors.cpp" />
     <ClCompile Include="text_input_widget_constructors.cpp" />
     <ClCompile Include="text_input_widget_draw.cpp" />
     <ClCompile Include="text_input_widget_keypressed.cpp" />
@@ -236,7 +235,6 @@
     <ClInclude Include="clock.hpp" />
     <ClInclude Include="ddmenu_option_widget.hpp" />
     <ClInclude Include="ddmenu_widget.hpp" />
-    <ClInclude Include="test_ddmenu_widget.hpp" />
     <ClInclude Include="fonts.hpp" />
     <ClInclude Include="image_button_widget.hpp" />
     <ClInclude Include="image_widget.hpp" />
