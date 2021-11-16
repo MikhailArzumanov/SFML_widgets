@@ -2,10 +2,11 @@
 
 
 SliderWidget::SliderWidget(){}
-SliderWidget::SliderWidget(Widget* parent_, void (*onchange_)(Widget*,float), point dims_, point p_) {
+SliderWidget::SliderWidget(Widget* parent_, void (*onchange_)(Widget*,float), 
+	point dims_, point p_):Widget(dims_,p_) {
 	percentage = 0;
 
-	parent = parent_; onchange = onchange_; dims = dims_; p = p_;
+	parent = parent_; onchange = onchange_;
 
 	the_line   = new sf::RectangleShape(sf::Vector2f(dims.x, dims.y / 3));
 	the_slider = new sf::RectangleShape(sf::Vector2f(38.f, dims.y));
@@ -13,10 +14,11 @@ SliderWidget::SliderWidget(Widget* parent_, void (*onchange_)(Widget*,float), po
 	the_line->setFillColor(sf::Color::White);
 	the_slider->setFillColor(sf::Color::Cyan);
 }
-SliderWidget::SliderWidget(Widget* parent_, sf::Color slider_color, sf::Color line_color, void (*onchange_)(Widget*,float), point dims_, point p_) {
+SliderWidget::SliderWidget(Widget* parent_, sf::Color slider_color, sf::Color line_color, void (*onchange_)(Widget*,float), 
+	point dims_, point p_) :Widget(dims_, p_) {
 	percentage = 0;
 
-	parent = parent_; onchange = onchange_; dims = dims_; p = p_;
+	parent = parent_; onchange = onchange_;
 
 	the_line   = new sf::RectangleShape(sf::Vector2f(dims.x, dims.y / 3));
 	the_slider = new sf::RectangleShape(sf::Vector2f(38.f, dims.y));
