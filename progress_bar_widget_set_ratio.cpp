@@ -1,6 +1,7 @@
 #include "progress_bar_Widget.hpp"
 
-
-void ProgressBarWidget::set_ratio(float ratio_) {
-	ratio = ratio_;
+namespace sfWgts {
+	void ProgressBarWidget::set_ratio(float ratio_) {
+		ratio = ratio_;
+	}
 }

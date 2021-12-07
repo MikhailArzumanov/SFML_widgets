@@ -1,5 +1,6 @@
 #include "checkbox_widget.hpp"
-
-void CheckboxWidget::on_click(point mouse) {
-	setValue(!value);
+namespace sfWgts {
+	void CheckboxWidget::on_click(point mouse) {
+		setValue(!value);
+	}
 }

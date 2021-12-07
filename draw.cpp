@@ -7,10 +7,12 @@
 
 void draw_widgets() {
     for (let widget of widgets)
-        widget->draw(point{ 0,0 });
+        widget->draw(sfWgts::point{ 0,0 });
 }
 void draw_window() {
     window->clear();
-    draw_widgets();
+    ///////////////////////
+    /**/draw_widgets();/**/
+    ///////////////////////
     window->display();
 }

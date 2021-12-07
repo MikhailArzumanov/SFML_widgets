@@ -1,5 +1,5 @@
 #pragma once
 #include "widget.hpp"
 
-extern std::vector<Widget*> widgets;
-extern Widget* last_clicked_widget;
+extern std::vector<sfWgts::Widget*> widgets;
+extern sfWgts::Widget* last_clicked_widget;

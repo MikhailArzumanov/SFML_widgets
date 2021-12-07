@@ -5,11 +5,11 @@
 
 #include <iostream>
 
-void test_event(Widget* null) {
+void test_event(sfWgts::Widget* null) {
     std::cout << "Test output\n";
 }
 
 void init_widgets() {
-    widgets.push_back(new AnimatedClose(point{1216, 0}));
-    widgets.push_back(new MenuWidget());
+    widgets.push_back(new sfWgts::AnimatedClose(sfWgts::point{1216, 0}));
+    widgets.push_back(new sfWgts::MenuWidget());
 }

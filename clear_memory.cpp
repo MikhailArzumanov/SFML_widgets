@@ -22,7 +22,9 @@ void clear_fonts() {
 }
 
 void clear_memory() {
-    clear_widgets();
+    ////////////////////////
+    /**/clear_widgets();/**/
+    ////////////////////////
     clear_sprites();
     clear_fonts();
     delete window;
