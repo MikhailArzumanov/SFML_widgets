@@ -43,12 +43,6 @@
     <Filter Include="Файлы заголовков\widget">
       <UniqueIdentifier>{3015f04e-6989-4c26-a37a-0143414c83ad}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widget\widget_derivatives">
-      <UniqueIdentifier>{834bfbb2-0e8d-4941-ac08-ec4d30d4a837}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract">
-      <UniqueIdentifier>{97fc575a-7ac4-4cee-bbf7-ab8e82657e24}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Файлы заголовков\widget\Examples">
       <UniqueIdentifier>{3fa837cf-383c-49ed-b8cd-fecbd196ca2b}</UniqueIdentifier>
     </Filter>
@@ -124,9 +118,6 @@
     <Filter Include="Исходные файлы\widget\examples\main_menu\game_page">
       <UniqueIdentifier>{4bd701e2-4d89-4954-a7c2-00a0592091d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\widget\widget_derivatives\abstract\ddmenu">
-      <UniqueIdentifier>{6d71d25d-e3d6-4c32-95de-f7b46fc72a1f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\ddmenu_widget">
       <UniqueIdentifier>{a97a787a-bd5d-4bc6-ac78-2bf6c600f0a1}</UniqueIdentifier>
     </Filter>
@@ -138,6 +129,15 @@
     </Filter>
     <Filter Include="Исходные файлы\widget\widget_derivatives\abstract\image_button_widget">
       <UniqueIdentifier>{a304fb10-946b-45f9-9a2b-c91b574e2261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget\Examples\widget_derivatives">
+      <UniqueIdentifier>{834bfbb2-0e8d-4941-ac08-ec4d30d4a837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget\Examples\widget_derivatives\abstract">
+      <UniqueIdentifier>{97fc575a-7ac4-4cee-bbf7-ab8e82657e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\widget\Examples\widget_derivatives\abstract\ddmenu">
+      <UniqueIdentifier>{6d71d25d-e3d6-4c32-95de-f7b46fc72a1f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -402,7 +402,7 @@
       <Filter>Файлы заголовков\widget</Filter>
     </ClInclude>
     <ClInclude Include="image_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="window.hpp">
       <Filter>Файлы заголовков\environment</Filter>
@@ -411,19 +411,19 @@
       <Filter>Файлы заголовков\environment\structs</Filter>
     </ClInclude>
     <ClInclude Include="animated_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="rect_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="button_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="slider_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="menu_widget.hpp">
       <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
@@ -438,10 +438,10 @@
       <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="progress_bar_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="checkbox_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="mm_start_game_page.hpp">
       <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
@@ -450,13 +450,13 @@
       <Filter>Файлы заголовков\widget\Examples\main_menu</Filter>
     </ClInclude>
     <ClInclude Include="scrollbox_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="text_input_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="vertical_slider_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="fonts.hpp">
       <Filter>Файлы заголовков\environment</Filter>
@@ -471,13 +471,13 @@
       <Filter>Файлы заголовков\environment</Filter>
     </ClInclude>
     <ClInclude Include="image_button_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract\ddmenu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract\ddmenu</Filter>
     </ClInclude>
     <ClInclude Include="ddmenu_option_widget.hpp">
-      <Filter>Файлы заголовков\widget\widget_derivatives\abstract\ddmenu</Filter>
+      <Filter>Файлы заголовков\widget\Examples\widget_derivatives\abstract\ddmenu</Filter>
     </ClInclude>
     <ClInclude Include="animated_close.hpp">
       <Filter>Файлы заголовков\widget\Examples</Filter>

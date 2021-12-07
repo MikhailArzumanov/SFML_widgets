@@ -3,5 +3,7 @@
 void init() {
 	init_fonts();
 	init_sprites();
-	init_widgets();
+	///////////////////////
+	/**/init_widgets();/**/
+	///////////////////////
 }

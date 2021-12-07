@@ -1,3 +1,4 @@
 #include "image_widget.hpp"
-
-//void ImageWidget::on_click() {}
+namespace sfWgts {
+	//void ImageWidget::on_click() {}
+}

@@ -10,6 +10,8 @@ void widgets_tick() {
 }
 void tick() {
     handle_events();
-    widgets_tick();
+    ///////////////////////
+    /**/widgets_tick();/**/
+    ///////////////////////
     draw_window();
 }

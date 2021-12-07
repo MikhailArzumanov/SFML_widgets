@@ -1,3 +1,3 @@
 #include "widgets.hpp"
 
-std::vector<Widget*> widgets;
+std::vector<sfWgts::Widget*> widgets;

@@ -1,6 +1,7 @@
 #include "scrollbox_widget.hpp"
-
-void scrlbx_sldr_onchange_evnt(Widget* parent, float percentage) {
-	auto parent_ = (ScrollboxWidget*)parent;
-	parent_->setPercentage(percentage);
+namespace sfWgts {
+	void scrlbx_sldr_onchange_evnt(Widget* parent, float percentage) {
+		auto parent_ = (ScrollboxWidget*)parent;
+		parent_->setPercentage(percentage);
+	}
 }
