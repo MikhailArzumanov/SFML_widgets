@@ -1,4 +1,4 @@
-Additional include directories:   %path ro include folder%
+Additional include directories:   %path to include folder%
 Preprocessor defines: SFML_STATIC;%%%
 Additional libraries directories: %path to lib folder%
 Additional dependencies:
